@@ -1,0 +1,14 @@
+type: theory
+custom_name: Static Memory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSYLss27CM0kgIBdW0KggSlQl6kMglLtvkqZzJQmnhVL8LlODqlP2or/94VUNMCyKEf/ZJXCCz0nNDn5eNHVQwjlIyHs0wMApW0ySVX4nvP1VHttc5EdXNMsJDIUW53cvQxOQHVrzsjvCsW21cp19OYAku+NLvhbQ7S+nqL7uE2N5+aW7r4cx9vwFwXUv3PtdbZlB44hrUf8AcKDKjM7c9ss6gPQ5hvl1ZtqGgvxnXVracRrdIiO3YYh4z48BF+KdQHrTtKpj8Acbl238n3FJhrw79w4SoDAt81gJk9+nXDus+HuHNvT9Ejo5+1SLyj4AIy2aL+lLG2+YNxJXKRybYjqpjzNpasZcUwskHVbdA2wA2Wo6mRUULhKFq+0q9ax55g==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpDBTmlHLz1FTpKioghTMipQzVmNSHHBSas81HhkbBPkngTRZDscn1mXsmanlGkYOOFYLdDlcZw6bwNHFlbru1Y8wcO4GXNRbb36uHg7faW8GcJGuBF9YhwLu6XTDknS9LmKkB6jPt2ChEJ+/9fsAJv+LYsXr5uSI5/1njolJar3t
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

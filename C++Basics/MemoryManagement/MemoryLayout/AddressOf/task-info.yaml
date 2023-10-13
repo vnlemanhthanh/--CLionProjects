@@ -1,0 +1,13 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSRun1NAITser1m8bSnLy7dccbNz/vWMTYjiAYeraoV/+10rXB4CJiZjpODCv/pe9yKX0NDKCv0HQNkpmptjUbEXu6B3kX+FEem9TCFIUFHcZTzuXt1pEZGD8qliDDW5Yy0QXhBE3OTey9vvWyTBesNoP78jkuQTbRtly6aSi4bkSLSaCQpm0NgG0ZoR7TxKKGEj3lv+o79sKhOrRPtKaHhFbMj+4L0lchjnQ/84TLu00jLTMU/6j0b1Yq5D4C+l1kax4RjPWoQQ4qVc0nlmCnTjA3Jh030MpEtbB+ayVRBEbiKl/QsmOI6e63l+IsdfO8qmV7fLZmO/b7X+aMdherFDf0adiVxQa7h1oqWuXTv9sBD0THtu4cnYGt6vZS8y9wg==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDPrgybPfPSnexWzHLTI3RtYrR3I45mL6yHXBM5nr4SIFT44aZJZrCjXk9yFyJQqF6PdyT6j2fud0ZZOpDdexxZu
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

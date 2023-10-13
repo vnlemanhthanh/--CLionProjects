@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+8df2dbf95874657404a102b2fa95b12f CMakeFiles/sfml
+32b1c31711e81ead1456cd860b7fd80f CMakeFiles/sfml-complete
+0a209d2efe9ddfd299cc43b4199e235d sfml-prefix/src/sfml-stamp/sfml-build
+6a260f51dbbdf8ce70805aa9139caa12 sfml-prefix/src/sfml-stamp/sfml-configure
+6235a35108fc5744994a459cf31fa83d sfml-prefix/src/sfml-stamp/sfml-download
+cdba17c03e38f408038db6a0281d79ed sfml-prefix/src/sfml-stamp/sfml-install
+e2a0ff7993ac27e0f1daf03d45360e56 sfml-prefix/src/sfml-stamp/sfml-mkdir
+c3e853dac95d8ac8e7f6e42248536b30 sfml-prefix/src/sfml-stamp/sfml-patch
+e2d9825ce2d3e4a3cce10294fcca8af9 sfml-prefix/src/sfml-stamp/sfml-test
+f4989de9e3da07a0ee3e519630ee9d51 sfml-prefix/src/sfml-stamp/sfml-update

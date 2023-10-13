@@ -1,0 +1,14 @@
+type: theory
+custom_name: C Style Type Casts
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oTedLv5b8unQjNfWrPnQ/0Jnb9YIIIQBRxeM/m4nQyoqV5IatiV+PkoBg1+nVzr8BFJLFkuE9T6eSrMeOJ/TCSMHDe0FXYmC5j92gBFXuyBf8G0bpao56+dnvwr7K9/goSQO0tcvc2Ft2sl02+QVxjMGAHyQblZSm2rNH3ZMtNeZSjAniB+8B7yTWVHAAb/zxEal44zGYV/QGUwaTSs8y+jOlu1cjsx9AohifSrheyfxtdSiUQlGp+lRkcYv7H71wf9xVSj9+CymzI40tQFgZy0tHvibEP2a6FWpp11cw+WyYN+X9UlHpU0e54kLOlV8hjGxv/TanEwmaultWKg1L3FHqmh6sjtWIxd4h6U+i4rh9C5XoFBvsD2pAzWdMmvn58q2jcJ4YCu1V++5dWOJ6knsvXU/w/2QibtdI6SXK9h/w==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpPYIMTHtMUHAW/Io2bK+TjLOXP/M+zZXLcYucs1Vz+8s8P5Th+H+ustOjaODYjoecX17TIr2KbLOuKMZEsEG0ALo3ePCGi4z32rHAfLPutfnIwADRUo6xjLz9CZaQxfFsjVsjjwHuM6Ap3Kdmy8ohBFGOLkC/tPBO7Ij16vxIsbg4CKL39qYcsgfEEFc75IyiOaxPnjlQwIQyTujZMWhqmm3jw4jzhuaISpweJ63jSmH9UQ+40gQTDYCYHXsvrsQkNXKYy1l2SI2u6+qhA2vKy8tpV1TSsNh8M57jEe+Kyoyr8Nwe1i0kST/n9IDAgZqAggt/H8T2wjlKOfvpdbWDoFGQUBl6G8+gXe/DoZuWmv30xMSgvms/N4UcN24Fj72Nkzfpv3yKmcrObQoTyFVpO2ZqPPb0KQPYxWm459ronaKvffJiVjR7pVA1wzGBL0pxbTi4xzn+AkzoNI5ApDUjb+pr00yaCf9Yc1qtFWc6uHIzUUWV/rugEarZ28TXogIQaeZyOdwq9zo9W0m+WIKpbLqhW2mpeGqlOfY7OVourqwCKbrtJCpNCnk0TREMadm4/tjU8yBtbKqc9Ci4EsJ5jNwFipWbE+DhPnBKJG2WaEHJ+cCW5vnSeqxtpI0NYYcV3RmMaOA7w3WqOClTQxIFQpfcHaANgISZkrZFfxc65vDY820O9LcXEmI0RoABhB0HSJk62kvsn7g50dCvXWLZwg=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

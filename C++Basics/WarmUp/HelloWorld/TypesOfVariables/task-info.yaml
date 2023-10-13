@@ -1,0 +1,15 @@
+type: theory
+custom_name: Types of Variables
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrfkenaiLJ9xzFHMa7NoBw5UmjG8/UlqaktPUHqJltpcE9+Guxp5YLHDPZM/NWj2kOGfXgxZiV2UTNjHS34HGh3C/3Q14ocIrNPgLbbQclP93TTPdYY6NdhDYlo/QZV6PsPJ3odeMiQfGalhRD9v5iAQ==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDMHb4u0y2dIFbjT6BaocplDaykbyRDXzJM6o0rgXHQtJ2gfnts2qEWuAp/Qk8upsEbbxj7S9ELmJcMRvgJodS7onfQZQw+8P9PgIy+F84CaErA5INL0+YlIDJmEssdRLwY=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Hello+World!/Types+of+Variables
+status: Solved
+record: -1
+post_submission_on_open: true

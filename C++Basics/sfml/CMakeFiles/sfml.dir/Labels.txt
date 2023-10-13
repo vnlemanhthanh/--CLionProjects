@@ -1,0 +1,14 @@
+# Target labels
+ sfml
+# Source files and their labels
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml-complete.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-build.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-configure.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-download.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-install.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-mkdir.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-patch.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-test.rule
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-update.rule

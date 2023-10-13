@@ -1,0 +1,14 @@
+type: theory
+custom_name: Memory Regions
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSVx47tpT2LcNnHUck7Jiah+xLzIaMtZ9D1KpW0F01I9i1q3s5d4kOxgEQp7dcriN65j5wJlGtKcX/NNmocC1Y6gub8Y9LAoR0aW560h2x67dRFfx8Ubhn9md0bHpLL5egMaHKxqrifp6Xt1QL3CSRa0iaa9pt5p+05H6TxAf6WRav2ylNTCPElk9Lj68ulP+Z8lTkK0Of767gjmYQ1y27jLQD2oscqwmshuxvim4lG4bqSvhYmAW2oPiG1V4DCe1Te9Codkz7rRDCPmeyqUD2Qg+hsV6ztq68tCaJwFt4gk0cWvDZ+9gpPXCv0OeGmMBlc9iI4WAVzrPZGhRP9BMRtJi1O4+YlK70zFb499EGuTigv/h8s3jg2VMmLEEl+FwUA==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7C0ZfdApwpl0ZoXlifAfmSrGUYzv6mf/Gp4TUmHv62XSZD0oSg8tP+bwaxRGF/91PA==
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

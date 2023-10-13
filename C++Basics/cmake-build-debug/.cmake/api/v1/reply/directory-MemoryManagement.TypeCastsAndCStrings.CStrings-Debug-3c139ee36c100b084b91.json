@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "MemoryManagement/TypeCastsAndCStrings/CStrings",
+		"source" : "MemoryManagement/TypeCastsAndCStrings/CStrings"
+	}
+}

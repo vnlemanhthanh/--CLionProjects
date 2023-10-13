@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe qc CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir/objects.a @CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE -g -Wl,--whole-archive CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir/objects.a -Wl,--no-whole-archive -o MemoryManagement-MemoryLayout-Pointers-run.exe -Wl,--out-implib,libMemoryManagement-MemoryLayout-Pointers-run.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir\linkLibs.rsp

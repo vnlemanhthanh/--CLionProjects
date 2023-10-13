@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/Pointers",
+		"source" : "MemoryManagement/MemoryLayout/Pointers"
+	}
+}

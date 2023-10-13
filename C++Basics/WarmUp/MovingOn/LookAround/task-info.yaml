@@ -1,0 +1,37 @@
+type: theory
+custom_name: Look Around
+files:
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpNZ6LwLDtgnXASdBL+4JU5DrnpkNIkD96uimsD1B6oy+UIVytWY4cbX0aHQ5yayBP7rhHHqNGhBOLu32rIe+yraqdwKkMayo7/1E/kxkChh9c+DiN5nvXaoDrVangAbkfteNVybg/F0KGxisSemzfBtVzwRsArmIOX+phRq4Sv0Wj7VT/hshtClfgjzcH2daepXHTMP0drxgl8mLh4a1JCAvvKEDHiPBSUY6DvuknHsUxP/jeQ4MxE02uA6eN++RhFuE+heaZ1MvqvMR9CoeIQ2ecSmA3xrMfWzxeKIbYp3TNq7jNWj1sZBkQ0+D5g+ssscoPTnF+QbXtf6nVssWpOIH2pghRAJAPh6e5B6YEfspyK8qAlLep+2Fcu9L6UNW/c6I8bHqoxm0mQolBI8RmOauAhkrqf+f1dceZ7CQ7xYKgRMFuhV+84QikSc+QNIzyZInwXvJF7Fnnmag4ipizwXnz6oQB0zTZTlfv+gBvVDc8QBACkOzmbGVhC5fpx6SGQ15Ums5utq19eNLrIjFDCC9x4DZnopul/Fqu4bGd9gONNrVTweqT8oMyT79CC4xyuBbFUwLuNkv8NGHnnXUGotfq6daMmetp+DYv6mfCTSPQ8shySFodwRaelsaAxBocnnWiyes/mwV7cWeCenLrHhJndnqcwg8IBt+nXMkgIjmdLosAz53JeeqmCwo6oDQxLj4rXiYmOvPvwkHZUDM+Nsw+SiUwvzmT4HoVFAAhBFsD3UxTSj5e2EjE3FkNwrOJD6zC5Eu2iizlRziOV3vOHg011BuHGwS/4E+vYM/i1pRSA7YQG+tufGmckCypD/ZaEIe2i/YTGW7mX00SORm0rkThhfyfzr03GDbDDwyhpe8U7KtFf9k68yAbeFetHnBFw7dc0XN7jd/tw0SB7N7GLJUO1CQWKyVkexX4MrdXYS4S7lhKJ+nDVQQ5W1H0NIB/J542dZKx+NuwZGcNXA4ygZM29Jh/joXRXbG2FtC6iI42j5a88flQ5aZl+uWobgT9DlovH3KlFaD+GIFt3iHiLVjVsmhGvR70YYJdli+jXlf9ZVyhkTvQCmspPuj8pKTgPhzNaty8+r+eySbD6JkxlyxL0LctYBLV3vZKWgwvjD9X59o3NalVW5kGgTnaXCpmn+oFftMyA1a9vy9OFDwb5qC2qElIPQHdyOo8znjieEQrJ/KMArQV7RbHe708mJCbU22uW7UoS51t4U7AjutaJCfpsuiabcrEn0pXDaFHY6hA7q0pNPpHJMMkGwXM+8WN2dpHjK73UjuCaiq9u5qXgWf2+cTS0+gE9428zBF+S92JzfipDtMZdA7mpYu70vObC7NYWFBT5Bkuc37BUHJdiv6HbKWCX558wjYkziq25Rqta4Mlu7FDpDakFs7m3UNeQ/wiZnHvhil1zhKG4slkjYgG4pRgEVqsd8Zr2TAWgYKc5sud8xBfK8j3ORXxp51utC9u17koS7KC2NRP7RSNE9Gd56cgbPKY9SQaMM1VOm7f8bLfRJXfjeFz+/E41OGOnlFdCfRixkI4CzfhO+ii6qvPUquZgZJd+eJ9MRL4cs3Hqvn6YGvsS5ceHp/nKCiKjWgPdgk1YjR16EJwebEX/h7F7xiRfQDLgB8id+gFoMNY6oQtS3B+rmCoCPpF7IlimwIljWBjHNcE92EvQrKKYXeGpkg69fwiMPqx0acdpOXSDUPsrAf+5W/+jj9uFZT2/9q3pWNn3Kip1fVAwj0BTE5Z6onimp5QOT3+i5iDzeDltzgUZZf4J/RqHcDByGjkA1+le9/NJfFOTy1Qg1fvs+SAKccLqydQ9dOI7Nvo4y1wdu1lMsk6XEu9mtV3p7s9zY58VtS9B6SYfpNT7dqMHZHi6eBpklcOo4BasaGam9ZNkoq0nG/ua1Mfj21XxLCE+kLwiGJ32l6TTN6QhNrOttaXfoMHq21evKEhrZkTnByNVd6ofomwsfXpdx0E14VrMhZPTSVWSevCB7myb6yVVGRHDjHO96cz5HzBMERbzbY7Vr7mkvimzZ+K3DC57VfmXbdkoDYUdZCdlPAM/amZe8=
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrs9792Ebkb4loMB/bMXvRfQfONY2RzWnnRPceaUFYp9UM3PxQO/0Kmwn0xEj5vmxc3S9vx/KRQbOtO6+3uv2jEA03tV0Gi70xYYOTxYuxI5GrwiyjWrlRKYqKsSj++3hm5u0Yg8Sfa5oscGf5LcHSIR2bnZ4xU9LUyIhVYsNyIwsLpQbhz5VbrVY8fH9CDGzIGK/Ewb0j1GcUnjlUMHmoui/TmP+TN3rXcC3AYw0TmU2ikVpP++Y+5TQ0IsDnMQx6tcsn5DAFEKlHsNRok/B/99Av9qUFQAHURnQYSb+N3NUdZhzvCysPpyffOaEC5Jm0c3SDogUMTJTofxxxLcbo9m8l9OPXNvZeMxmWfrSrj3w=
+    learner_created: false
+  - name: src/move.cpp
+    visible: true
+    placeholders:
+      - offset: 69
+        length: 8
+        placeholder_text: position
+        dependency:
+          section: WarmUp
+          lesson: MovingOn
+          task: MoveAnObject
+          file: src/move.cpp
+          placeholder: 1
+          is_visible: false
+        initial_state:
+          length: 8
+          offset: 69
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: /IQIMKSrhsIgpemC4obiThpE863msPE3k23akoUEhdM=
+    encrypted_text: DgDba3xw8RdPYu5Vpld1eY1E1In1EtrkhpergIjsa98GD9AajcxH3KPkrZtC79Z0z0WeLwhF/LNOzCk14uM0mog9a08gUS9CQUy3yToBClMpNR864AeSKRzrZlaUOFpZ
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Moving+On/Look+Around
+status: Unchecked
+record: -1
+post_submission_on_open: true

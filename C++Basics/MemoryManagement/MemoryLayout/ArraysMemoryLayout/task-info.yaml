@@ -1,0 +1,38 @@
+type: edu
+custom_name: Arrays Memory Layout
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRScULbUK+/mcVXTems1Mz6XxD+WqOVw+L+KHv+C7MelCM6vv7NtKZ51BsLR1W13ur6VsRedMuMxWt1o/5lBrUljL4oh6wF+qt0sKLYxy3HB7g1eShYYLTXCTqNqf2ero7JUnk2wJ0M3+hb6ZP9odDz4vpG7IH0aayzFJ315CKRQ1XdRHXHjpMr3uIjPbtAiEGmdGeDK8rnvHxQp4c1aN13ncAU28axKQ2iXvwTcCWxwLwQtEA/8+lvUZF+D6rg84yNEOJb21lN5JQ4mDBnozL7n9NOM6BVAK1XIlG26s4ENbyNF7u3mUCBdPADJ7JGbM1wJ2ABmrlD7GWCgSR6Rsmo6FlQBuvzFWpf67LYBUCmwl5m/sjUDSVfrwiT1kd2Ll2/OVPMaFC7UOdNwbjEyFfE4DL3a9aWAoHa5lb4je2yuK4QpkVtUJHz217i0eqUqH0xMnjrFb8Ss34daPQnoV8+ePodrViAWuC6+rMc8svg8Ck/GftxX9ZrOSdkUsVnrvX9rf6pQPUJCiOYZxS3NzkVeAfP3pI/r8Xm9Xcnry/QZfKLl7md/hl1HpBKm/QbXUXQCE1zluV4rxwSqK+ZD4nrvBDATbM6xgPXHKq47Hv5UlwuKmGDnDx27lEAOv30A7ZJsHLP5jBHGZ5QAU08kfIOhS7OCnanvpSta70y5R9OXqY
+    learner_created: false
+  - name: src/task.cpp
+    visible: true
+    placeholders:
+      - offset: 60
+        length: 9
+        placeholder_text: return 0;
+        initial_state:
+          length: 9
+          offset: 60
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IzlvG2KEa0wZPzp+R2xpTosPT3t8O26vPKeSeW3DfOsyV+duMPDdp/hdd0gCBSFu2lajESTfVMpfh608/39Qp2KF67MGjtMBgez5qkaQog9J5b/Xu595Z4mD648gBXTvlg1DFyrJj64oDrFwfSm+Wg==
+      - offset: 114
+        length: 9
+        placeholder_text: return 0;
+        initial_state:
+          length: 9
+          offset: 114
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IzlvG2KEa0wZPzp+R2xpTs8oBscZcACXYbNMcaU/avPhIdUwqfPFrRwRyNn7pvGsBIYIB6Rv+v0ATEWNMmZlqXTNF0wQDhDNx5N5t2j5m+dqyaNW5gW1kGvZiX7UGOCx
+    encrypted_text: y9pMjVY6AwsMKgaAiQwYuFq78cZ/y5aaSC2MWp0KFdzUEre7toQKXUhKo/O1aFqYnyBl/QumVuYJIWmRlS1xHRoRwR33PBHjqJbRUsI35bQnbbVCjsmr2wEQNaX8oodrE7CuhD0IL3bTH4sKIdgbkfOsqglIldkzvyMl+97p0gE=
+    learner_created: false
+  - name: test/test.cpp
+    visible: false
+    encrypted_text: L5ffR8J4TW5o2ausXnEBbVads89VKfE9dHkxmqcYj7ENnJ7XxmtcL5i3Zy5RAncowr9xffCvCU90B9S50Kg7b/9a1bGoepkVjok3jpuU95rMAYO1QMB6+DDj9LTvxi30t6P3m7YjDdMMAOdMvEV56FmgHheb5FsgOBzfZfqtj/vSb8alt3042iaqblopNoHsg9X9jSCd59g2NT25TudmnUpqqhtEgU6AuIh3IIShfJQxBQpCLHY+bJe2ENQO14075c44Oq//Do5r1+XUV6VRL81m4YPNz5sgfbdswjOCE2cgP/whcS/oWCjLQDjKYnGGnejlRvAn3qb/7a65zY7wu0ypz9B+OVkBJWMuaC7NJrCR5gAxJr3/krtPiNdFZSAYKLi1hiDARfKiVym4facTUTmR/sbnBTPrHjm9pF0vI9CL3UVFFP9UqMZavehxUJMdoFP551fc3H9xe07chCnKhyn04g4Vu+CdtLHsM5tYzVo+x1QY0cmeJeAtZ1dExRyTV6N3w8zE8f7gcZU94hDBmC/Mv/Gkm3MLeuqWWzH1WvllR7Maw1wH+3N4lWttT4zOsQZesPnD9gY+NV/1cEQadB9dx/i+ErXfA7n7nqYttKGn56g3kNC32ZPNbM2w9O/0EbR5EQyJ2JSQJsDCHggl30NkV16Zohzwo10v+uczrxOGtjXfD+2T25p06WPm6JUez/Qa0mIZfradzziEhKisv+5PqT+uE1iBKfsJFcZeP31XpPDYeHHZkSOCIwRX9OVS1Ib0DlpSEhziMz/LBkXlDnkxVRsaC2JPaRKPDyVJAiURFs1rp0qwYcUcoNokDR20F4+wbsU6ZBvw0rSKJKwLsxaATURC3h4sE/FJGS/uTYTa402+LbQ/lfzFy+iGSEEQ/Zp4vY0ZyjPR8hI+PU+lQLaBm2JROhKofp6qdIMfchvgdiDydbm5iBJaMz7Fo9jB
+    learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,175 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/PointToSameValue/MemoryManagement-MemoryLayout-PointToSameValue-test.exe"
+		},
+		{
+			"path" : "MemoryManagement/MemoryLayout/PointToSameValue/MemoryManagement-MemoryLayout-PointToSameValue-test.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"configure_test_target",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/utils.cmake",
+			"MemoryManagement/MemoryLayout/PointToSameValue/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@fc46b4c6c2facc284149"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtest_main::@fc46b4c6c2facc284149"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "MemoryManagement-MemoryLayout-PointToSameValue-test-src-part::@96c0f444467019ba1f8b"
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-PointToSameValue-test::@96c0f444467019ba1f8b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libMemoryManagement-MemoryLayout-PointToSameValue-test-src-part.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\lib\\libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\lib\\libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\lib\\libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MemoryManagement-MemoryLayout-PointToSameValue-test",
+	"nameOnDisk" : "MemoryManagement-MemoryLayout-PointToSameValue-test.exe",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/PointToSameValue",
+		"source" : "MemoryManagement/MemoryLayout/PointToSameValue"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/PointToSameValue/test/test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

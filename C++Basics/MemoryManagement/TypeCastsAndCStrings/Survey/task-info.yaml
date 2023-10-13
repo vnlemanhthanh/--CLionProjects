@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5jM2VllYbBAhkBZEaHzN30WI4dC8CtGObTXqxWGY74LNgkaA5qkvn4sgw+g1H76Pl2+DBFD5pEvoIUK/W/2u00MHp0rinrEq0c43T4Hu7PY+HABv4bp2AbIt5AWbyjSi+ywaY3suHih+oi/Ox8p83SAP7CYAIle1l260ijHaX1f5CdK4JWPwmYi2cPPSGNicEAP7vutd/lF9TX6FjkRWzdocpu8sVWj0kY0zUp06pIq+rIk7nfCWytLZThqkv/p6lWwszi1bjTwZ7mdaUZJsfKRsRct0QHIbOPEdcTUL675gb5aswIEDpls9x+P9CsaSeMhj/P1JUYcqL4nmnVF/pdOg4YOy+VLOMtC9SrmcR2W9vRDnBXUGp4stYThQucwxeLY7bzKla31pk7ok0/ogjMw==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Quiz/Survey
+status: Unchecked
+record: -1
+post_submission_on_open: true

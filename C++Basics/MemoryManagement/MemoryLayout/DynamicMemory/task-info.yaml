@@ -1,0 +1,14 @@
+type: theory
+custom_name: Dynamic Memory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSR/ONshLt1uzgJbYJlnCaQNfqMqu4SQVaZLDAkhvesb8nR2Nv72la2vsh3EaBvLR85b+OxK6IfYFG+qWIeogAvB5IsRZ7BZ5FYiRJSQbhBzzfirj4WPY3EE1e5TFA6Vcc5FhasWwTKU3IZ7qQM1XRYVgr++K9A9JRhM2k3CavTsUQL4BgmJGishuS4AqCTZOvHcYDvdTzqNkIJ7j7RaucORx8uK36sR1zHfplokUzgLxkNagIDJo72od2/KNrgZC0CZx1FwVJaTrdA0iUFsc/C8C9cXbw9XMsv0fKT3mgWFYeTRWr0YLv9tAkSho+mmB0gHUPZMaxbueNdtB3vjB/vroHSf2f4Wb+05BFXB8NkxUYvUZnJGpkWftuJ/vnel3yg==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: y9pMjVY6AwsMKgaAiQwYuF+UhoQyAC9Xrk3UFaQN4q2sMbhk+cKUEROd7btyqox7/IETWl9RfSqb84GjAuk26c3FEiBrMYtP67rxdes9OWyJCIsiYQlfv070f07VT5Q3s0Bja2NTKUCnPaEzswGQPQh/7YclzxVvuRW05+pKhioqVfBDmS5pZv/u+tP4OfArfnrm2X6afHh4Y0NApVOmVfFTWWhx8Bkw22u2dwRHBjzRfoGo11x/c6jNnJ2xZZGr38nAz+HG6NUH+hpnDuNKE1EGOUSsc4yuSVoQam8qL7zYHf8lZ8f5UIGBXrfetZClhpUV0WnSuU2FCSJxp2tz3mf2HNTrOyq0LJjgRCJ36ElqzoraitGBwp+h+gh/bWlSrtWaATGANwyfXDFiSJfNgA8+adBFi0GBYVJ6wlU+M2Lx9zPcplJC6AzXbj1s8TkMqLcEhSwJvScCmA2E6z6lX0LWvjv6+bIxOAO9DP9or8Wdl4Bq3KDwachA9Tfz58Xx7jZPI5CJ+YJoc1nZh7KloLLNLvVTrOt/i3/Sm3eRdXRiiRGG7TqeYMZJJcF5ZI1t
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,29 @@
+type: edu
+custom_name: Max Int
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrvvoSbvylvboHEAAMGaRtfihwO7RPVOt1aUzyGIj9qTgbU/HuCpdiZGPsECxytFXwONB2Wq9naJoVA262MLnoLicVwX9g/muH5OFjX5nTp3pluC1v7nIV0ZH9885UBuAF9myRmJA75XC+BwXIzUJuVTqzs7BAlJZST2qwiQdOHSAdRf/gK/xRlyRxPc4KOoMghEamebX4eS7geBNfRstN2w2VD71jhVYlJ0UP/EDFRq3mArxGmcMLxI0Fi46FR7civHgYH4VtJlStJDzL+9LYxx+RsR51B2yVHFROErRjet8=
+    learner_created: false
+  - name: src/task.cpp
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 9
+        placeholder_text: return 0;
+        initial_state:
+          length: 9
+          offset: 31
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: smNbxTo+YWEVmx7D02zICY/TEZSBriY/Sp2ycS3vMUo=
+    encrypted_text: 0Abtkmj1ccZWTq4iOHijiDqGGoaTj6DuH0w2pymy1RJqysbwOj1mpKISjdRWhFgj
+    learner_created: false
+  - name: test/test.cpp
+    visible: false
+    encrypted_text: L5ffR8J4TW5o2ausXnEBbWXCAbyleOb3cNz6GL9IHfwLzWLxwRANmm3Sw3Z6K15d0tOJ4Zkj5QUh+9I4BLlIt0L+Vhzcg3AruRewBvJARaRhYIziSoyxpdg8EK5oUXfPMy2cuERIw7uMkEpS8/AH14CnHigIJCeLoYbQ2vWznjyIt7RcYcErdBiVYDH+qvKcim1VD3o29kLTPhFvlmZOlvYGeIBtzmrcLhn6E4fpN19/8oU2BNMbp+5WK9A0QXe0sftZXVbULEsZaKWXNkix/eyyNI7FjWqLoaH7mzfTKZ6RX4L4FRYem6gNObTs46xe+uUw7K9VzY2eFETigNl2gjKYnFoki4V3FHa2YldQ/6xl4UIrqk9tTcnqTxfWBN68QnuK57EbJJp46GJOTuJ4HVZyUBkFW/pUrS3MBk933SeXPtJ/rOyiRPWjB6UGnBocVZcI30btgxPIjSwST6gwaqAMh5w47Avzbv+jXStmVal35g1XzOXurkdIzUHTYHvT75hVVnD5uwQmKe2/9IfYLbwoemAU3QPTNS8wHXNkhr/LjooHELE7Uxxu8TZXrbBLQxxFiKpxynQcEZ8lgoRSaal1Qzwf1Ov1mY/pQnu3CA4=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Quiz/Max+Int
+status: Unchecked
+record: -1

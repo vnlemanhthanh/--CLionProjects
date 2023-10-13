@@ -1,0 +1,28 @@
+type: edu
+custom_name: Point to Same Variables?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSdp5qjvlhAdZJp3KznUBgAYSGC0Jo5E3qNblRGleAc5RRz3pIAB5e+4Yp5TOTBDw/CQen5tHS+1AL2wWqcNhGbHvEGSm635YMDTg/WUMyZ9hyo6PESb7HY96S5i3Z4yXbCAZztd7cCYEIZybPzcgQMl+H/okcZyrSDnVfJPgVvI9qgzlGjL+uJNN7FzNX5PiJvTxf2SCosbfDsSsm96hEFDVLs/qD2vU3XbOqOLtkNB4Q7rRE9tP2Qh/+2xxR4dOsdSZTpVE+054b/Qjd5qYXEXvKhGMgD8xnqqvS6aSCI1p4PHs5yKZ6FKnt5+zx+jI2S753REYZb6de2ux0waFsQFJasCMJFTpm0/1TSoFAzyzQtC4tePYZv5YawavP8rQHdVwxQ/5SLXD6OFMRd0Y+RQuFukth3VJqnm9huDgnfpupbngzHyEucenQ8HFaUXuMa4MR42kt0A0Qt8wyvrr1z70b0ogMChwIHjUDa6BZsUTyCKxz5zUbs6Pf5oRNIFazHw/n+DVZMtR0e0UPiKKKHXiS4tKny1y9Ity9NlbrO5Z0N9r8ek1XhjOTOG/JtZQEV9b+UE+axz0oePo/nI746Up5aNLOP2OleM7K8nBbsVd+dqgBVMJKvfnhKV9wQn0nO63sRS1BeMLFEPXwXtpaUNBugb5VHLEVZBRXQhogIDF
+    learner_created: false
+  - name: src/task.cpp
+    visible: true
+    placeholders:
+      - offset: 44
+        length: 13
+        placeholder_text: return false;
+        initial_state:
+          length: 13
+          offset: 44
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: zjv6rI4I7Ty5sz36B+OROqFeLZQMYn3KRa+cjW1jNf7O5gUYSkf8m+BEYJeufy9b5QdGRzHWqhGRtNkNS5SkXfRtwk12KIz1J74LCxaYEkI=
+    encrypted_text: zgvpe/AqCg23HTvXOCb0qG5Sni46x3tBjtourMAF1n4N+77Wa7ytgfNdnNxwPpe4qeCDmP9jdmQh95vZvv7okQ==
+    learner_created: false
+  - name: test/test.cpp
+    visible: false
+    encrypted_text: L5ffR8J4TW5o2ausXnEBbYWbAkiaaX40ZBVc1eUhEUrsNH2berlneIdUHLayZcehCj28tDtnqykUi5ODNQ/9HC1fUD1EDte83y9Tq9gsbZjogjAx9LV+yX89auFWLwuCi0bE5LfkJ9smGXiJpH85tt+MZ3n40kiET8g+M/Cms7pROGuG3gYvqz7259WJlIxq+Kxi+JxBuNXgjlAL4D1g6Qu1iQJUbLMb7Zm5p2098CI/8RrN5nG5W3PcpJvErGfgK1c2iqLp8AfDWNeE7Ie1nsZmxbIyO2K5xfYvZzO7LZ5ZnxLP1nh61Cfwnb/5pYulmHZLF7D2R7KgaCkVQHYWlD7tSJg+Q8gJUkRODkT0NGIAOte9+529TZRwgwXWvJ6MacILph/QaitS/DkRx0jdu7b91i1pIajRW8tl2Dx/Tr5X5a+QnxtyZtnvh0KSd52NhcDVB+Lpi3snG1ZghSoQkaAHuI3uEwpN7W0lRga4uUOfh1Wnyo0lowAJYftPk7WhbGWa8HimFVdNEhtBo6MXWvEKHDkDk0vtGn1L/MYdJGizayekfCX5k8YVFGq/wZ4S6hz64UKkvtyEUnqG2d8aIXqARlJIgffWlBed/KoFicM=
+    learner_created: false
+status: Unchecked
+record: -1

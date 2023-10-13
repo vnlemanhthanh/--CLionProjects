@@ -1,0 +1,107 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "WarmUp/Quiz/SumPositive/libWarmUp-Quiz-SumPositive-test-src-part.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"configure_test_target",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"cmake/utils.cmake",
+			"WarmUp/Quiz/SumPositive/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "main=mainee9c2a01f546129e71d5b104e6b7c6f96856cb52"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "WarmUp-Quiz-SumPositive-test-src-part::@db24fc1ae89486edc080",
+	"name" : "WarmUp-Quiz-SumPositive-test-src-part",
+	"nameOnDisk" : "libWarmUp-Quiz-SumPositive-test-src-part.a",
+	"paths" : 
+	{
+		"build" : "WarmUp/Quiz/SumPositive",
+		"source" : "WarmUp/Quiz/SumPositive"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WarmUp/Quiz/SumPositive/src/task.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

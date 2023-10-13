@@ -1,0 +1,17 @@
+type: theory
+custom_name: Welcome
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrfkenaiLJ9xzFHMa7NoBw5ahEajbnMxFjjfwXQjNKyblTIweQX3c/+RTC9YflOmC5pjuBBauwoX375OUfrtEo6Q+igYVQwdPri1W58DvBWyH0TaakHzWu4oSizSfY+bAE9r9kfT+d42Wz35e2vWDFyA==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7C0ZfdApwpl0ZoXlifAfmSrGUYzv6mf/Gp4TUmHv62XSZD0oSg8tP+bwaxRGF/91PA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Hello+World!/Welcome
+status: Solved
+feedback:
+  time: "Tue, 10 Oct 2023 16:43:18 UTC"
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: function `f` takes both arguments by value
+    is_correct: true
+  - text: function `g` takes both arguments by reference
+    is_correct: false
+  - text: function `g` takes argument `p` by pointer
+    is_correct: true
+  - text: function `h` takes argument `rect` by pointer
+    is_correct: false
+  - text: function `h` takes argument `rect` by reference
+    is_correct: true
+quiz_header: 'Select options from the list:'
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oSAAhg9aBT6nhaOU1ZQgRvTECoM/bcjCybWLezeh+2Rk1knicoOAEplGqd3pCvTE66B0mye8ouCoeUkQPlrIzf8NDDNJvza5izAORLIR0/1bMiQQI0zJvSnhtf8XiTzieBJo7M8xobvjUTXhkVHmygymor1/MsOwFxGjMXETVI1y4SzvELuXIF1Dol2DhSQ8khMKhCQj3r9UjWz2rlxLta9AvH8pfnHzoCvSB3Ris3CAPQrCIdOKwmma0aeJ0JeXjGlwoBzWi+MrXNl0LyYDtZpPo4nzkcqWWGlAqs17XbznwaK7RmcrNfqMDveMfn0q2BN6juj2KjP0OYcEOvu+rN9dT/Thq3KJLVDzi2K2mfJ8neJkHOKvm9akjexV0wJ3VfSDstPkZT1O1lWTT52ylDevyYhLkns+fS9uzgIqR+clQsK0Ph32eYtkrur7Qe4x0w=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7C0ZfdApwpl0ZoXlifAfmSrGUYzv6mf/Gp4TUmHv62XSZD0oSg8tP+bwaxRGF/91PA==
+    learner_created: false
+status: Unchecked
+record: -1
+custom_name: How Arguments are Passed?
+local_check: true

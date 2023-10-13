@@ -1,0 +1,32 @@
+type: output
+custom_name: First Words
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: psrFzohn6yIhrzYsbZ/T8A==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrfkenaiLJ9xzFHMa7NoBw5TzVISF8JyUnTRY086RuywIrK5keyFweSZFusglsmwHhHfYEAiHBrQF+k8FVALxUTdX0CUoQGmFW03tWTDmh9Rge5H7zlZOVzMRYh8guACimvZvtCFQtk6341hZdudaotQ==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 38
+        length: 30
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 38
+        initialized_from_dependency: false
+        selected: true
+        status: Solved
+        encrypted_possible_answer: d8UH81JQxxEhK0gFMKMx6O9NB1Ifx3MJ7C73gtJnw0o=
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDMFSb9ilbEvEXVrYCP0VOoo0egx3SyEmjpHP3R851z9d1NcFpIGHfgCQqlAtorQtz0=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Hello+World!/First+Words
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 10 Oct 2023 17:01:21 UTC"
+record: -1

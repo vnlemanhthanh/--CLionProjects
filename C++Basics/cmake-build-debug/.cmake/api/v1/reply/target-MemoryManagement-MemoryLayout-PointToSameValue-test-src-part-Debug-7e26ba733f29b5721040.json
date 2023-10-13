@@ -1,0 +1,107 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/PointToSameValue/libMemoryManagement-MemoryLayout-PointToSameValue-test-src-part.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"configure_test_target",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"cmake/utils.cmake",
+			"MemoryManagement/MemoryLayout/PointToSameValue/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "main=mainee9c2a01f546129e71d5b104e6b7c6f96856cb52"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-PointToSameValue-test-src-part::@96c0f444467019ba1f8b",
+	"name" : "MemoryManagement-MemoryLayout-PointToSameValue-test-src-part",
+	"nameOnDisk" : "libMemoryManagement-MemoryLayout-PointToSameValue-test-src-part.a",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/PointToSameValue",
+		"source" : "MemoryManagement/MemoryLayout/PointToSameValue"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/PointToSameValue/src/task.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

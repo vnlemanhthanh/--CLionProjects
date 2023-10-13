@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: (1)
+    is_correct: true
+  - text: (2)
+    is_correct: false
+  - text: (3)
+    is_correct: false
+  - text: (4)
+    is_correct: true
+  - text: (5)
+    is_correct: false
+  - text: (6)
+    is_correct: false
+quiz_header: 'Select options from the list:'
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oTedLv5b8unQjNfWrPnQ/0JCg3Pk/P9KoeKKxbMNYMGVwdnFzGCc/dloivbJER9YoakM3BDuLb2DAImxP4trDJvTEAMtqfxvz+6jzeeqxdhuM6kMgy6mAEIt1GsARMXWXy7gcF+L6j/vyrHsZiC3j4ftdN1brutOlT0HLLgh4+1P8F5r0JaB7x0OBB0caSz0EIuW3v4F3HbT367F5mGKO5edh3w45AOMSIwz8f5vpKMnoYB61gLWSgASt6R1gFFmzTy2F/d9ldfUaxicnPSIr6pTv8aqpstzrhkCP7AIOnkIHpXZ5oRTztgRrRHw6jEDrzySL/Ke9vhnOES28+JuuPIAUGOi5vMe7mM14bJKL2NfpOTmCob1Owp6Z9Vs4zaCy5uhb4jRBQYdpi/8GUBAMIXuM+K1oR7jwOw7m8e+LYJng==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+custom_name: Mutable or Immutable?
+local_check: true

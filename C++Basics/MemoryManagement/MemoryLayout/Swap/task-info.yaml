@@ -1,0 +1,27 @@
+type: edu
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSdI62g82E/+ps9dWt6+GcoVA4No33+LdB+1Fa3HDvN7EnU0ex1FPXhF/9BPEEP0jwzoGfR3tye3WBAPjj7Z5CEvxzXl912vxIcnOlnsz0lfs1Vm9NunwKVre86g6dThW9d7M/+zkakTpA4bWbEuALjHOuN8leFOsZPUrku4h2mbUfzhmwWT8+w4+PiW15d9Nn4pP7+i0K9R2p2YQwvYhhzdo26LD8RhvSiVZqHmDgY0Nx9CfV3CR9kohuS6TWRji5Ml5w63T3IBN6zKBX+rmNEg2UhHkbHvTY+vDy075/09e9TC5DPzLzUNNRqnOnlb2guDGKfC0X6nzVRcZI5v/Fi28wAqlhxPtyl1eP1/rl3Fn2Xf1gFxHXBErEUpdvQqPT1GJXFao3AZ2USLUUgusMJVwaBq8rEN0z1KyilQwjLShJgOkupEP+Vkmq03ngLwZbdhlJyyLmgCyVCfpoC7rqVIY1fUoXMoa5O2YoVvy047LdsHUDONi+aL6jfO8UAQTiyPrWYoiABlm38aiiuQ86gPx/kiTd1RC16Bvbps9faueHk3nXtK60TqAkGcSAqi8Mrdbe5hJnvBpYyGGBuZsujhg1pt6AdLnXRG04DuYv+/Qw9pzqohiYCYVkH/gwEk5BjdsBL945wd3UjmjkRTDIorxFUpZc1sWWYhfHfXV2vVv
+    learner_created: false
+  - name: src/task.cpp
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 32
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: zPvcKQWVXCPdnxj4wjLKgYubqg7kS1LAfiL2Q0SEZv0MGoc7LPsC7W9QIbPLc0xB
+    encrypted_text: sPFpaOjIdk3aGRSxQ3irh1vIhYe+YUd/OatCAB2U6ZPMP09VVeqwpvyghYowTz/i
+    learner_created: false
+  - name: test/test.cpp
+    visible: false
+    encrypted_text: L5ffR8J4TW5o2ausXnEBbcW5QP8wIhn8m73Qym5yn756BY9cTNTU+klMTMgU28Bju/RwYKxV8lonnZf4F7nZ2tvdRQkZXRu3ZX7Pw8Wosc+GtavyV+d9ZzmW3zuVb0zyzHYRTxhNcNdaSlrN5IAckRPzPYLVAzL8LxR06KjF63S10ncgHlfvDUJEsAKqvf+wyvCluWn6VU1xM2X7WNnTmNIju2mR2QSbZ+0QpFmcc8C4xaD0lOLzKxDB03K4EtFMm0/od48fms1ut0LZY4s4HubXSR//8+rrLZZ8efT3sKwD8DtKjVDMa1JCfZrpFDhE/YTRNtKukl1m4+Nj6DkbllO8AG6m/XXS01dkVQJfQ3rBWMnqZ3FRu47IEIaUyaLlCHpNCisfX5VRk1qGfBqFXDBSiTvBkR683h/5zbZ+YCU=
+    learner_created: false
+status: Unchecked
+record: -1

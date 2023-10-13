@@ -1,0 +1,2 @@
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe qc libWarmUp-Quiz-MaxInt-test-src-part.a "CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/src/task.cpp.obj"
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ranlib.exe libWarmUp-Quiz-MaxInt-test-src-part.a

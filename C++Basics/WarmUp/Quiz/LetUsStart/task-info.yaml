@@ -1,0 +1,15 @@
+type: theory
+custom_name: Let's Start
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrWPaGSY9oVq7DJjKUlpWAkL3zOmSH+RGyweb/qOtPm+3Gi5GAUjblo5s/0OxSPIujeni2lhiTJddXhBcQlgoSOXCtnWSeopOqaKXnIqa9KvgXT4OcrvB1KDjIOwsmXRoq2ihXTIciIopeVrE6ir9Lk3HDAmzbGYgNl3SZ6wz1ebE=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7C0ZfdApwpl0ZoXlifAfmSrGUYzv6mf/Gp4TUmHv62XSZD0oSg8tP+bwaxRGF/91PA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Quiz/Lets+Start
+status: Unchecked
+record: -1
+post_submission_on_open: true

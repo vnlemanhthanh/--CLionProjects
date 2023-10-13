@@ -1,0 +1,28 @@
+type: edu
+custom_name: Copy Array
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSbSfyvnkC3+kb4KOn6UPbSUoDf6vScAwO5NIsQOutPnkme1thbjQVlhcU2TD5LH3xh7a/9b6zWtJhwpKFK8uRPRA2dPsrPLHl8RqRNKf6ohSh158uRUaDqdHHiT+i7NBynHJuNRR6qpxu7pLB3of8tpFWq0Mv61/hKH0MOqUveMNYW8ZfpNPFU/hw4gsMpLPJ4qZEflm2X5uxp4fWq0p5jvuGIjVnpUTT/yeO8hj/f23Q7IdGam6467D0EdqasV337wxqlawfPnTJYpMpMSOf66NBvrMZLrh0P3GlJNMbzmojTIkc7WbQzcShVOgZjOfGOINdYqi1tVkameTc1Ub/G6FxMtFU93v9qtffn5dKBMBz/ILxq2P5EcgZqnhxAsxV1ga9hz7BOs0injOzrhQYN70gKtj54WPuBkNaXqgwIklhSvbUjXtVqhBzwyEcnkqd8o+QEEBe8znL7MDNVB64smBIKxMQp8pcru0fQe+be7GYZBBRxwkEQLbyQ/Y4KSM1X98IPS36h2mufV36QAUjOCg7Cffirdt+P3FcwyNbWPDinYWFt8yGahqY+jFdNnua22pIQwVakMzHZZFpWH9zJI4VzAhCrD4sxtysNyK/LQ74j9g4kQEvzZHxbpwQ/OZR7Hs7XfeYYHeqjaAZ9MWN2HgKG+iXIT9WYTbhF51nspz
+    learner_created: false
+  - name: src/task.cpp
+    visible: true
+    placeholders:
+      - offset: 57
+        length: 15
+        placeholder_text: return nullptr;
+        initial_state:
+          length: 15
+          offset: 57
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: iila8q0WBkSJjvXwkKni7VzpOJhNeQwc04vvLb+RKswY8DMpqZghiBTiJo6X27ijxc7Ckk1Vl2Z86UvWjhwz54vYiNf9UH3LfMgxHMr18G6EzVFUmE8cIByLVtR4T3N81zmutMUTzvRt5AxLpd4ryUBG0BHwV9m0PTgv/kwFSRZiaHAliRo3fY/b5igxrOG/Mk1r8XpAXxFAvqr4VuHWsNi3p6caBS1CiH+V5TqqUKw=
+    encrypted_text: y9pMjVY6AwsMKgaAiQwYuNCOzD2QANPe9ELdoxmJnfQouavgwQsPap9ulLncML3bvTxBhONApQ1era0sERaTRPR7JiyJf+uzN4hvSBYeeCE=
+    learner_created: false
+  - name: test/test.cpp
+    visible: false
+    encrypted_text: L5ffR8J4TW5o2ausXnEBbU4haX//6OrVdErMaA9mQBhDC1GSJLYYyNOwysOQH/rLI2ozOwWikaaOl9141KFSZWmIiLcEEW1FqvgSgFAVJQY7H62rIX/Af+DZBhF7Ho0N+CCK3R8gWsNkeQGxJ68MC97wNJWAYQFRfqGQ1DCnqWfutqZzNUOokvZS+6FipzTsYkf2UDm4PI3RREhPc69NQ70l9w7ER8VEaqqyI7TSPS9pc6JejBI6Q6pwGhTDDjrCaMpU49iDkh7XMKBNto/OKAAVwyJtITnzmTftu8ROZ42G8Ap1KGiyBXkNNfvFVVhMJdZK+bYzjQ3//ylVZP0AnTZVbVZuNBUuIJrBkQed/imWRoA1un52tcIPZLxIGaiPNEmewz9zEP58vrvDb8bGx5BgWMwSieYhODD8q+wQyIeu24pktnUToXuemukDWef37D/Qy71MZMiMssX8y5IAOiw1AYACoNEh/wmUldkIiuo7oiyFBmOCmGkNBKBtpyQTgFAe5mrKUGNaPdx5/1CYhYLJKGzyKPAczRIk7pRvTC8Egu6XCQEAeHhUogEV4WHb
+    learner_created: false
+status: Unchecked
+record: -1

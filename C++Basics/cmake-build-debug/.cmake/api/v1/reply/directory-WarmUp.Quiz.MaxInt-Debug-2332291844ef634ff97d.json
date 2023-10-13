@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "WarmUp/Quiz/MaxInt",
+		"source" : "WarmUp/Quiz/MaxInt"
+	}
+}

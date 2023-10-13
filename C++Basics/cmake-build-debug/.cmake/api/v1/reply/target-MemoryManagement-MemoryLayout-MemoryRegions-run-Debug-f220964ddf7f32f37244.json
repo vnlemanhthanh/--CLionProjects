@@ -1,0 +1,106 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/MemoryRegions/MemoryManagement-MemoryLayout-MemoryRegions-run.exe"
+		},
+		{
+			"path" : "MemoryManagement/MemoryLayout/MemoryRegions/MemoryManagement-MemoryLayout-MemoryRegions-run.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"MemoryManagement/MemoryLayout/MemoryRegions/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-MemoryRegions-run::@c9fc1a49dd7b1998e5bf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MemoryManagement-MemoryLayout-MemoryRegions-run",
+	"nameOnDisk" : "MemoryManagement-MemoryLayout-MemoryRegions-run.exe",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/MemoryRegions",
+		"source" : "MemoryManagement/MemoryLayout/MemoryRegions"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/MemoryRegions/src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

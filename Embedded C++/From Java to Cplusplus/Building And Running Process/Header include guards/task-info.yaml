@@ -1,0 +1,15 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutJNMkbKeU+jjss9oa36brTGpuVlgRLgHGKZcszUyEn96qVCAXd1Ax/GrqWp6EsWe4S1wMrgjHbgxauoIid/fpcHicThN0Ou1Ny/rFh+qI47KRL/5nNmbsfWKU+dO10uyuHO/9BaWhDMEdOIjG85ZRGpZuivMJyPuuoPWgHMdjeplnMga1DAHTEOTgC4bPwwJ0r/JD5uJQdqcBV1HLaESbUsn5FHLDkYVUYJIUkqiCsYJy8m/TOLOM6u1JDCLckLxOJqMOlA33HCVKrP9x4uL2W2eCqQw4nnHvhimgx/HzLBUEpveOyPWLifDEnP3nIeIHgDxF5VJd1pUxWfBDI6s83RGkWVFrGj12zwopfEsEqgRvfSG1FnZuF4CqPym0lDgJiJQd/jTbFhCjvLRoLC4Sc0mSZWQ5IR3/6VaDfkTYjev
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Solved
+feedback:
+  time: "Tue, 10 Oct 2023 17:52:17 UTC"
+record: -1
+post_submission_on_open: true

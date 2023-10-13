@@ -1,0 +1,14 @@
+type: theory
+custom_name: SizeOf Pointers
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQgz0zFoQwAdbaDceZCj/I5BLrjSJUbAXeQCTR86yoRSYfN7am3RSRbg4QUTlmo+SiYPs3VfWIvGeEG/dv+7wZgYd80FV+QB3z05kyFA/JNKvBCPx0a0T14sOCqP5Xkz1hjdDep+gzg20gcX65hA1BQ2xXmKiE/bNs9XBIyP2j3hHWvu8iSREj1v6ackE9DPYUpMe6Oart6lPCuZ7L/dRDgi56P09unKyZs6gC3oC+Y1ZZfe9XJk3c6gHGFTIRkzwdgPOod5mBDTqsBVPgU9Nu4UAy9x+V1rde7ksEFK8lu3NCFsUuF9KZz941FbL+mA/ZHD3l44SURb6WCrZa+Tze1JlZu3j/io4kaiH8eN6PPwQ8Fb9R2lco4pUl9ELX3d2G+rNVxZVMv9WzTLIa7gVDHidcvSLWAh1YOd3JBpqMUvQ==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDPGlutAuuxoxADv4d6D+eHkz41cGzo3tNYbjMpzU81+DP49OYd93CesSd+U4wtqR9gkNt5pjvFLujvfRM2FM73T44QR9s+3dtNb8dOktW3DT1jZr2L3GDHFWuRmHimwcwHZ7X9b0mMUGvHHcYVgKn5jvCrumPdakbUaT69QAAkpj24C7Iyx5xQBxTm3pfPFam0=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

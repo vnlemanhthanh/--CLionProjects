@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "WarmUp/HelloWorld/FirstWords",
+		"source" : "WarmUp/HelloWorld/FirstWords"
+	}
+}

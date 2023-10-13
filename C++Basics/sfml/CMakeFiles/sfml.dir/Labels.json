@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/CMakeFiles/sfml-complete.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-build.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-configure.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-download.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-install.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-patch.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-test.rule"
+		},
+		{
+			"file" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-prefix/src/sfml-stamp/sfml-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml"
+		],
+		"name" : "sfml"
+	}
+}

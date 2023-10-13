@@ -1,0 +1,1 @@
+-IC:/Users/vnlemanhthanh/CLionProjects/C++Basics/include -isystem "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include" -isystem "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"

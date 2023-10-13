@@ -1,0 +1,37 @@
+type: theory
+custom_name: Having Fun
+files:
+  - name: src/move.cpp
+    visible: true
+    placeholders:
+      - offset: 69
+        length: 8
+        placeholder_text: position
+        dependency:
+          section: WarmUp
+          lesson: MovingOn
+          task: LookAround
+          file: src/move.cpp
+          placeholder: 1
+          is_visible: false
+        initial_state:
+          length: 8
+          offset: 69
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: /IQIMKSrhsIgpemC4obiThpE863msPE3k23akoUEhdM=
+    encrypted_text: DgDba3xw8RdPYu5Vpld1eY1E1In1EtrkhpergIjsa98GD9AajcxH3KPkrZtC79Z0z0WeLwhF/LNOzCk14uM0mog9a08gUS9CQUy3yToBClMpNR864AeSKRzrZlaUOFpZ
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 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
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrI6TLIQ1X9oQcGtYXyYLfu/to46SXdBjiHfdFtvcRq4wBpaYZStWBDH8wjmNfCqTdYnPwfQUx54QpYR4o4J4qEOSzQg0rx+sgAAm+pVjXk5Sfo+ausLHRQEGKeNSIvk5r7yT6TPwZ21nN1gz0SykyZnuow1Kvr2wqiYYDS5jL4iEvCjLf5mcQQEZ8PC95R1d7nT5+eBIlfQ6Hak1yL2UWdZ86QTzExGaF3g7QbVc8gwBl8Q7BKUx3w+azOdfeywBjX6viRXTxs/cX3LiW+rZmqbD45VyMga98BUQ9kBvRp5c/7q4l7k6cspmoz9asya1kA3FzJ2jOQL5ejXntO55sRVpI87yRP8Lg5HjEaMWmVG4=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Moving+On/Having+Fun
+status: Unchecked
+record: -1
+post_submission_on_open: true
