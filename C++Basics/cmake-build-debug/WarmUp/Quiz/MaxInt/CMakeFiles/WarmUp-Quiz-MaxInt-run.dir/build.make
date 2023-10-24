@@ -72,15 +72,15 @@ WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj: WarmU
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/MaxInt/src/task.cpp
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj: WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj -MF CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj -MF CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp
 
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.i"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp > CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp > CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.i
 
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.s"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp -o CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\MaxInt && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\MaxInt\src\task.cpp -o CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\src\task.cpp.s
 
 # Object files for target WarmUp-Quiz-MaxInt-run
 WarmUp__Quiz__MaxInt__run_OBJECTS = \

@@ -21,8 +21,11 @@ void processInput(sf::RenderWindow& window) {
     }
 }
 
-void update(sf::Time delta, sf::Shape& player) {
-    return;
+void update(sf::Time delta, sf::Shape &player) {
+    Point2D position = {player.getPosition().x, player.getPosition().y };
+    Point2D velocity = { SPEED, SPEED };
+    Point2D newPosition = move(position, velocity, 0.001f * delta.asMilliseconds());
+    player.setPosition(newPosition.x, newPosition.y);
 }
 
 void render(sf::RenderWindow& window, const sf::Sprite& background, const sf::Shape& player) {

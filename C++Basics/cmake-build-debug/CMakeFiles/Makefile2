@@ -836,7 +836,9 @@ WarmUp/HelloWorld/Welcome/clean: WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-Hel
 # Directory level rules for directory WarmUp/MovingOn/task
 
 # Recursive "all" directory target.
-WarmUp/MovingOn/task/all: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all
+WarmUp/MovingOn/task/all: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all
+WarmUp/MovingOn/task/all: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/all
+WarmUp/MovingOn/task/all: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all
 .PHONY : WarmUp/MovingOn/task/all
 
 # Recursive "preinstall" directory target.
@@ -844,7 +846,9 @@ WarmUp/MovingOn/task/preinstall:
 .PHONY : WarmUp/MovingOn/task/preinstall
 
 # Recursive "clean" directory target.
-WarmUp/MovingOn/task/clean: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/clean
+WarmUp/MovingOn/task/clean: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/clean
+WarmUp/MovingOn/task/clean: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/clean
+WarmUp/MovingOn/task/clean: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/clean
 .PHONY : WarmUp/MovingOn/task/clean
 
 #=============================================================================
@@ -1123,12 +1127,12 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/g
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=56 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target gmock"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
@@ -1150,7 +1154,7 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/g
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=57 "Built target gmock_main"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1176,7 +1180,7 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/g
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googletest\CMakeFiles\gtest.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googletest\CMakeFiles\gtest.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=57 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=58 "Built target gtest"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1202,7 +1206,7 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/g
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\test-framework\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=58 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=59 "Built target gtest_main"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1228,12 +1232,12 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/g
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all:
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\System\CMakeFiles\sfml-system.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\System\CMakeFiles\sfml-system.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=84,85,86,87,88,89,90 "Built target sfml-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=85,86,87,88,89,90 "Built target sfml-system"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/rule
@@ -1254,7 +1258,7 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/C
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=79 "Built target sfml-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=80 "Built target sfml-main"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1285,7 +1289,7 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/C
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
@@ -1306,12 +1310,12 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/C
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=80,81,82,83 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=81,82,83,84 "Built target sfml-network"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
@@ -1329,16 +1333,16 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Network/
 # Target rules for target C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
 
 # All Build rule for target.
-C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79 "Built target sfml-graphics"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -1359,12 +1363,12 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=59,60,61,62,63,64,65,66 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=60,61,62,63,64,65,66,67 "Built target sfml-audio"
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
@@ -1592,10 +1596,10 @@ MemoryManagement/ConstAndReferences/SwapAgain/CMakeFiles/MemoryManagement-ConstA
 # Target rules for target MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir
 
 # All Build rule for target.
-MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
+MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-run.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-run.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10 "Built target MemoryManagement-LinkedLists-LinkedList-run"
@@ -1603,7 +1607,7 @@ MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedL
 
 # Build rule for subdir invocation for target.
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-run.dir/rule
@@ -1624,12 +1628,12 @@ MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedL
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-test-src-part.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-test-src-part.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-LinkedLists-LinkedList-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=11 "Built target MemoryManagement-LinkedLists-LinkedList-test-src-part"
 .PHONY : MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/rule
@@ -1652,7 +1656,7 @@ MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedL
 MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/all: MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-test.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\LinkedList\task\CMakeFiles\MemoryManagement-LinkedLists-LinkedList-test.dir\build.make MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=11 "Built target MemoryManagement-LinkedLists-LinkedList-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-LinkedLists-LinkedList-test"
 .PHONY : MemoryManagement/LinkedList/task/CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1730,12 +1734,12 @@ MemoryManagement/MemoryLayout/AddressOf/CMakeFiles/MemoryManagement-MemoryLayout
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=14 "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-run"
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-run.dir/rule
@@ -1756,12 +1760,12 @@ MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-Mem
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=15 "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part"
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/rule
@@ -1784,12 +1788,12 @@ MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-Mem
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/all: MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\ArraysMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir\build.make MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=15 "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=14 "Built target MemoryManagement-MemoryLayout-ArraysMemoryLayout-test"
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.dir/rule
@@ -1836,7 +1840,7 @@ MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout
 MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CopyArray\CMakeFiles\MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir\build.make MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CopyArray\CMakeFiles\MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir\build.make MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=18 "Built target MemoryManagement-MemoryLayout-CopyArray-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=17 "Built target MemoryManagement-MemoryLayout-CopyArray-test-src-part"
 .PHONY : MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1864,12 +1868,12 @@ MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout
 MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/all: MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CopyArray\CMakeFiles\MemoryManagement-MemoryLayout-CopyArray-test.dir\build.make MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CopyArray\CMakeFiles\MemoryManagement-MemoryLayout-CopyArray-test.dir\build.make MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=17 "Built target MemoryManagement-MemoryLayout-CopyArray-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-CopyArray-test"
 .PHONY : MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-test.dir/rule
@@ -1890,12 +1894,12 @@ MemoryManagement/MemoryLayout/CopyArray/CMakeFiles/MemoryManagement-MemoryLayout
 MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CustomTypesMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir\build.make MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\CustomTypesMemoryLayout\CMakeFiles\MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir\build.make MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=18 "Built target MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run"
 .PHONY : MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/rule
@@ -1968,12 +1972,12 @@ MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-Memor
 MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\FunctionPointers\CMakeFiles\MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir\build.make MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\FunctionPointers\CMakeFiles\MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir\build.make MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-FunctionPointers-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=21 "Built target MemoryManagement-MemoryLayout-FunctionPointers-test-src-part"
 .PHONY : MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/rule
@@ -1996,7 +2000,7 @@ MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-Memor
 MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/all: MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\FunctionPointers\CMakeFiles\MemoryManagement-MemoryLayout-FunctionPointers-test.dir\build.make MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\FunctionPointers\CMakeFiles\MemoryManagement-MemoryLayout-FunctionPointers-test.dir\build.make MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=21 "Built target MemoryManagement-MemoryLayout-FunctionPointers-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-FunctionPointers-test"
 .PHONY : MemoryManagement/MemoryLayout/FunctionPointers/CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2074,12 +2078,12 @@ MemoryManagement/MemoryLayout/MemoryErrors/CMakeFiles/MemoryManagement-MemoryLay
 MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\MemoryRegions\CMakeFiles\MemoryManagement-MemoryLayout-MemoryRegions-run.dir\build.make MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\MemoryRegions\CMakeFiles\MemoryManagement-MemoryLayout-MemoryRegions-run.dir\build.make MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=24 "Built target MemoryManagement-MemoryLayout-MemoryRegions-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-MemoryRegions-run"
 .PHONY : MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLayout-MemoryRegions-run.dir/rule
@@ -2100,7 +2104,7 @@ MemoryManagement/MemoryLayout/MemoryRegions/CMakeFiles/MemoryManagement-MemoryLa
 MemoryManagement/MemoryLayout/NullPointer/CMakeFiles/MemoryManagement-MemoryLayout-NullPointer-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\NullPointer\CMakeFiles\MemoryManagement-MemoryLayout-NullPointer-run.dir\build.make MemoryManagement/MemoryLayout/NullPointer/CMakeFiles/MemoryManagement-MemoryLayout-NullPointer-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\NullPointer\CMakeFiles\MemoryManagement-MemoryLayout-NullPointer-run.dir\build.make MemoryManagement/MemoryLayout/NullPointer/CMakeFiles/MemoryManagement-MemoryLayout-NullPointer-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=25 "Built target MemoryManagement-MemoryLayout-NullPointer-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=24 "Built target MemoryManagement-MemoryLayout-NullPointer-run"
 .PHONY : MemoryManagement/MemoryLayout/NullPointer/CMakeFiles/MemoryManagement-MemoryLayout-NullPointer-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2126,12 +2130,12 @@ MemoryManagement/MemoryLayout/NullPointer/CMakeFiles/MemoryManagement-MemoryLayo
 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointToSameValue\CMakeFiles\MemoryManagement-MemoryLayout-PointToSameValue-run.dir\build.make MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointToSameValue\CMakeFiles\MemoryManagement-MemoryLayout-PointToSameValue-run.dir\build.make MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-PointToSameValue-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=25 "Built target MemoryManagement-MemoryLayout-PointToSameValue-run"
 .PHONY : MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-run.dir/rule
@@ -2152,12 +2156,12 @@ MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-Memor
 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointToSameValue\CMakeFiles\MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir\build.make MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointToSameValue\CMakeFiles\MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir\build.make MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=27 "Built target MemoryManagement-MemoryLayout-PointToSameValue-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-PointToSameValue-test-src-part"
 .PHONY : MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test-src-part.dir/rule
@@ -2185,7 +2189,7 @@ MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-Memor
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/rule
@@ -2206,7 +2210,7 @@ MemoryManagement/MemoryLayout/PointToSameValue/CMakeFiles/MemoryManagement-Memor
 MemoryManagement/MemoryLayout/PointerArithmetic/CMakeFiles/MemoryManagement-MemoryLayout-PointerArithmetic-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointerArithmetic\CMakeFiles\MemoryManagement-MemoryLayout-PointerArithmetic-run.dir\build.make MemoryManagement/MemoryLayout/PointerArithmetic/CMakeFiles/MemoryManagement-MemoryLayout-PointerArithmetic-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\PointerArithmetic\CMakeFiles\MemoryManagement-MemoryLayout-PointerArithmetic-run.dir\build.make MemoryManagement/MemoryLayout/PointerArithmetic/CMakeFiles/MemoryManagement-MemoryLayout-PointerArithmetic-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=28 "Built target MemoryManagement-MemoryLayout-PointerArithmetic-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=27 "Built target MemoryManagement-MemoryLayout-PointerArithmetic-run"
 .PHONY : MemoryManagement/MemoryLayout/PointerArithmetic/CMakeFiles/MemoryManagement-MemoryLayout-PointerArithmetic-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2232,12 +2236,12 @@ MemoryManagement/MemoryLayout/PointerArithmetic/CMakeFiles/MemoryManagement-Memo
 MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Pointers\CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir\build.make MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Pointers\CMakeFiles\MemoryManagement-MemoryLayout-Pointers-run.dir\build.make MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-Pointers-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=28 "Built target MemoryManagement-MemoryLayout-Pointers-run"
 .PHONY : MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/Pointers/CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/rule
@@ -2284,12 +2288,12 @@ MemoryManagement/MemoryLayout/SizeOf/CMakeFiles/MemoryManagement-MemoryLayout-Si
 MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\SizeOfPointer\CMakeFiles\MemoryManagement-MemoryLayout-SizeOfPointer-run.dir\build.make MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\SizeOfPointer\CMakeFiles\MemoryManagement-MemoryLayout-SizeOfPointer-run.dir\build.make MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=30 "Built target MemoryManagement-MemoryLayout-SizeOfPointer-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-SizeOfPointer-run"
 .PHONY : MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLayout-SizeOfPointer-run.dir/rule
@@ -2310,7 +2314,7 @@ MemoryManagement/MemoryLayout/SizeOfPointer/CMakeFiles/MemoryManagement-MemoryLa
 MemoryManagement/MemoryLayout/StackMemory/CMakeFiles/MemoryManagement-MemoryLayout-StackMemory-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\StackMemory\CMakeFiles\MemoryManagement-MemoryLayout-StackMemory-run.dir\build.make MemoryManagement/MemoryLayout/StackMemory/CMakeFiles/MemoryManagement-MemoryLayout-StackMemory-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\StackMemory\CMakeFiles\MemoryManagement-MemoryLayout-StackMemory-run.dir\build.make MemoryManagement/MemoryLayout/StackMemory/CMakeFiles/MemoryManagement-MemoryLayout-StackMemory-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=31 "Built target MemoryManagement-MemoryLayout-StackMemory-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=30 "Built target MemoryManagement-MemoryLayout-StackMemory-run"
 .PHONY : MemoryManagement/MemoryLayout/StackMemory/CMakeFiles/MemoryManagement-MemoryLayout-StackMemory-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2336,12 +2340,12 @@ MemoryManagement/MemoryLayout/StackMemory/CMakeFiles/MemoryManagement-MemoryLayo
 MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\StaticMemory\CMakeFiles\MemoryManagement-MemoryLayout-StaticMemory-run.dir\build.make MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\StaticMemory\CMakeFiles\MemoryManagement-MemoryLayout-StaticMemory-run.dir\build.make MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-StaticMemory-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=31 "Built target MemoryManagement-MemoryLayout-StaticMemory-run"
 .PHONY : MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/StaticMemory/CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/rule
@@ -2388,7 +2392,7 @@ MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap
 MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Swap\CMakeFiles\MemoryManagement-MemoryLayout-Swap-test-src-part.dir\build.make MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Swap\CMakeFiles\MemoryManagement-MemoryLayout-Swap-test-src-part.dir\build.make MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=34 "Built target MemoryManagement-MemoryLayout-Swap-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=33 "Built target MemoryManagement-MemoryLayout-Swap-test-src-part"
 .PHONY : MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2416,12 +2420,12 @@ MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap
 MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/all: MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Swap\CMakeFiles\MemoryManagement-MemoryLayout-Swap-test.dir\build.make MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\MemoryLayout\Swap\CMakeFiles\MemoryManagement-MemoryLayout-Swap-test.dir\build.make MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=33 "Built target MemoryManagement-MemoryLayout-Swap-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-MemoryLayout-Swap-test"
 .PHONY : MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap-test.dir/rule
@@ -2442,7 +2446,7 @@ MemoryManagement/MemoryLayout/Swap/CMakeFiles/MemoryManagement-MemoryLayout-Swap
 MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CCast\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CCast-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CCast\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CCast-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=35 "Built target MemoryManagement-TypeCastsAndCStrings-CCast-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=34 "Built target MemoryManagement-TypeCastsAndCStrings-CCast-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2468,12 +2472,12 @@ MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCast
 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=35 "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-run.dir/rule
@@ -2494,7 +2498,7 @@ MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-
 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=37 "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=36 "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2522,12 +2526,12 @@ MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-
 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/all: MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringConcat\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=36 "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-CStringConcat-test"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/rule
@@ -2548,7 +2552,7 @@ MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeFiles/MemoryManagement-
 MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=38 "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=37 "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2574,12 +2578,12 @@ MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-T
 MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=39 "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/rule
@@ -2602,7 +2606,7 @@ MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-T
 MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir/all: MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStringSplit\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=38 "Built target MemoryManagement-TypeCastsAndCStrings-CStringSplit-test"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringSplit-test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2628,7 +2632,7 @@ MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeFiles/MemoryManagement-T
 MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStrings\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStrings\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=40 "Built target MemoryManagement-TypeCastsAndCStrings-CStrings-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=39 "Built target MemoryManagement-TypeCastsAndCStrings-CStrings-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStrings-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2654,7 +2658,7 @@ MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeFiles/MemoryManagement-TypeC
 MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStyle\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CStyle\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=41 "Built target MemoryManagement-TypeCastsAndCStrings-CStyle-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=40 "Built target MemoryManagement-TypeCastsAndCStrings-CStyle-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStyle-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2680,12 +2684,12 @@ MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeFiles/MemoryManagement-TypeCas
 MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CppCast\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\CppCast\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-CppCast-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=41 "Built target MemoryManagement-TypeCastsAndCStrings-CppCast-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/rule
@@ -2706,12 +2710,12 @@ MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeFiles/MemoryManagement-TypeCa
 MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\Survey\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-Survey-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\Survey\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-Survey-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=42 "Built target MemoryManagement-TypeCastsAndCStrings-Survey-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target MemoryManagement-TypeCastsAndCStrings-Survey-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/all
 
 # Build rule for subdir invocation for target.
 MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/rule
@@ -2732,7 +2736,7 @@ MemoryManagement/TypeCastsAndCStrings/Survey/CMakeFiles/MemoryManagement-TypeCas
 MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\TypeCastsQuestion\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f MemoryManagement\TypeCastsAndCStrings\TypeCastsQuestion\CMakeFiles\MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir\build.make MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=43 "Built target MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=42 "Built target MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run"
 .PHONY : MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2758,7 +2762,7 @@ MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeFiles/MemoryManagem
 WarmUp/HelloWorld/AgeDoestNotMatter/CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\AgeDoestNotMatter\CMakeFiles\WarmUp-HelloWorld-AgeDoestNotMatter-run.dir\build.make WarmUp/HelloWorld/AgeDoestNotMatter/CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\AgeDoestNotMatter\CMakeFiles\WarmUp-HelloWorld-AgeDoestNotMatter-run.dir\build.make WarmUp/HelloWorld/AgeDoestNotMatter/CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=44 "Built target WarmUp-HelloWorld-AgeDoestNotMatter-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=43 "Built target WarmUp-HelloWorld-AgeDoestNotMatter-run"
 .PHONY : WarmUp/HelloWorld/AgeDoestNotMatter/CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2784,7 +2788,7 @@ WarmUp/HelloWorld/AgeDoestNotMatter/CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatt
 WarmUp/HelloWorld/FirstWords/CMakeFiles/WarmUp-HelloWorld-FirstWords-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\FirstWords\CMakeFiles\WarmUp-HelloWorld-FirstWords-run.dir\build.make WarmUp/HelloWorld/FirstWords/CMakeFiles/WarmUp-HelloWorld-FirstWords-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\FirstWords\CMakeFiles\WarmUp-HelloWorld-FirstWords-run.dir\build.make WarmUp/HelloWorld/FirstWords/CMakeFiles/WarmUp-HelloWorld-FirstWords-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=45 "Built target WarmUp-HelloWorld-FirstWords-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=44 "Built target WarmUp-HelloWorld-FirstWords-run"
 .PHONY : WarmUp/HelloWorld/FirstWords/CMakeFiles/WarmUp-HelloWorld-FirstWords-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2836,7 +2840,7 @@ WarmUp/HelloWorld/IntroduceYourself/CMakeFiles/WarmUp-HelloWorld-IntroduceYourse
 WarmUp/HelloWorld/TypesOfVariables/CMakeFiles/WarmUp-HelloWorld-TypesOfVariables-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\TypesOfVariables\CMakeFiles\WarmUp-HelloWorld-TypesOfVariables-run.dir\build.make WarmUp/HelloWorld/TypesOfVariables/CMakeFiles/WarmUp-HelloWorld-TypesOfVariables-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\TypesOfVariables\CMakeFiles\WarmUp-HelloWorld-TypesOfVariables-run.dir\build.make WarmUp/HelloWorld/TypesOfVariables/CMakeFiles/WarmUp-HelloWorld-TypesOfVariables-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=46 "Built target WarmUp-HelloWorld-TypesOfVariables-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=45 "Built target WarmUp-HelloWorld-TypesOfVariables-run"
 .PHONY : WarmUp/HelloWorld/TypesOfVariables/CMakeFiles/WarmUp-HelloWorld-TypesOfVariables-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2862,7 +2866,7 @@ WarmUp/HelloWorld/TypesOfVariables/CMakeFiles/WarmUp-HelloWorld-TypesOfVariables
 WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\Welcome\CMakeFiles\WarmUp-HelloWorld-Welcome-run.dir\build.make WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\HelloWorld\Welcome\CMakeFiles\WarmUp-HelloWorld-Welcome-run.dir\build.make WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=47 "Built target WarmUp-HelloWorld-Welcome-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=46 "Built target WarmUp-HelloWorld-Welcome-run"
 .PHONY : WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2882,33 +2886,87 @@ WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/clean:
 .PHONY : WarmUp/HelloWorld/Welcome/CMakeFiles/WarmUp-HelloWorld-Welcome-run.dir/clean
 
 #=============================================================================
-# Target rules for target WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir
+# Target rules for target WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir
 
 # All Build rule for target.
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
-	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/depend
-	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=48 "Built target WarmUp-MovingOn-StartTheGame-run"
-.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/depend
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=47 "Built target WarmUp-MovingOn-MovingUp-run"
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all
 
 # Build rule for subdir invocation for target.
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 38
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 37
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
-.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule
 
 # Convenience name for target.
-WarmUp-MovingOn-StartTheGame-run: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule
-.PHONY : WarmUp-MovingOn-StartTheGame-run
+WarmUp-MovingOn-MovingUp-run: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-run
 
 # clean rule for target.
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/clean:
-	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/clean
-.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/clean
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/clean
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/clean
+
+#=============================================================================
+# Target rules for target WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir
+
+# All Build rule for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/all:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/depend
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=49 "Built target WarmUp-MovingOn-MovingUp-test-src-part"
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/all
+
+# Build rule for subdir invocation for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule
+
+# Convenience name for target.
+WarmUp-MovingOn-MovingUp-test-src-part: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-test-src-part
+
+# clean rule for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/clean:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/clean
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/clean
+
+#=============================================================================
+# Target rules for target WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir
+
+# All Build rule for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/all
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/depend
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=48 "Built target WarmUp-MovingOn-MovingUp-test"
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all
+
+# Build rule for subdir invocation for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule
+
+# Convenience name for target.
+WarmUp-MovingOn-MovingUp-test: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-test
+
+# clean rule for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/clean
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/clean
 
 #=============================================================================
 # Target rules for target WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir
@@ -2917,7 +2975,7 @@ WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/clean:
 WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\Calculator\CMakeFiles\WarmUp-Quiz-Calculator-run.dir\build.make WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\Calculator\CMakeFiles\WarmUp-Quiz-Calculator-run.dir\build.make WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=49 "Built target WarmUp-Quiz-Calculator-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=50 "Built target WarmUp-Quiz-Calculator-run"
 .PHONY : WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2943,12 +3001,12 @@ WarmUp/Quiz/Calculator/CMakeFiles/WarmUp-Quiz-Calculator-run.dir/clean:
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\Initialization\CMakeFiles\WarmUp-Quiz-Initialization-run.dir\build.make WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\Initialization\CMakeFiles\WarmUp-Quiz-Initialization-run.dir\build.make WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=50 "Built target WarmUp-Quiz-Initialization-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target WarmUp-Quiz-Initialization-run"
 .PHONY : WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/all
 
 # Build rule for subdir invocation for target.
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/rule
@@ -2969,12 +3027,12 @@ WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/clean:
 WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\LetUsStart\CMakeFiles\WarmUp-Quiz-LetUsStart-run.dir\build.make WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\LetUsStart\CMakeFiles\WarmUp-Quiz-LetUsStart-run.dir\build.make WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target WarmUp-Quiz-LetUsStart-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=51 "Built target WarmUp-Quiz-LetUsStart-run"
 .PHONY : WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/all
 
 # Build rule for subdir invocation for target.
 WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/rule
@@ -2995,7 +3053,7 @@ WarmUp/Quiz/LetUsStart/CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/clean:
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=51 "Built target WarmUp-Quiz-MaxInt-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=52 "Built target WarmUp-Quiz-MaxInt-run"
 .PHONY : WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3021,12 +3079,12 @@ WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/clean:
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-test-src-part.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-test-src-part.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=53 "Built target WarmUp-Quiz-MaxInt-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target WarmUp-Quiz-MaxInt-test-src-part"
 .PHONY : WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/rule
@@ -3049,12 +3107,12 @@ WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/all: C:/Users/vnlemanh
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/all: WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-test.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\MaxInt\CMakeFiles\WarmUp-Quiz-MaxInt-test.dir\build.make WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=52 "Built target WarmUp-Quiz-MaxInt-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=53 "Built target WarmUp-Quiz-MaxInt-test"
 .PHONY : WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/all
 
 # Build rule for subdir invocation for target.
 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/rule
@@ -3075,12 +3133,12 @@ WarmUp/Quiz/MaxInt/CMakeFiles/WarmUp-Quiz-MaxInt-test.dir/clean:
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-run.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-run.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num= "Built target WarmUp-Quiz-SumPositive-run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=54 "Built target WarmUp-Quiz-SumPositive-run"
 .PHONY : WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/all
 
 # Build rule for subdir invocation for target.
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles 0
 .PHONY : WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/rule
@@ -3101,7 +3159,7 @@ WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-run.dir/clean:
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/all:
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-test-src-part.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-test-src-part.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=55 "Built target WarmUp-Quiz-SumPositive-test-src-part"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=56 "Built target WarmUp-Quiz-SumPositive-test-src-part"
 .PHONY : WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3129,7 +3187,7 @@ WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/all: C:/User
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/all: WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/all
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f WarmUp\Quiz\SumPositive\CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\build.make WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=54 "Built target WarmUp-Quiz-SumPositive-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=55 "Built target WarmUp-Quiz-SumPositive-test"
 .PHONY : WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/all
 
 # Build rule for subdir invocation for target.

@@ -2,7 +2,7 @@
 
 int main() {
     int x = 0;
-    int y;
+    int y=1;
     int z = y;
     std::cout << z << "\n";
     return 0;

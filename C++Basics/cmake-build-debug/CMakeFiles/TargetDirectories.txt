@@ -371,7 +371,9 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/HelloWor
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/HelloWorld/Welcome/CMakeFiles/install.dir
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/HelloWorld/Welcome/CMakeFiles/install/local.dir
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/HelloWorld/Welcome/CMakeFiles/install/strip.dir
-C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir
+C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/edit_cache.dir
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/rebuild_cache.dir
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/WarmUp/MovingOn/task/CMakeFiles/list_install_components.dir

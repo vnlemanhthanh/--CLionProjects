@@ -11,5 +11,7 @@ files:
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Hello+World!/Types+of+Variables
 status: Solved
+feedback:
+  time: "Tue, 24 Oct 2023 08:30:33 UTC"
 record: -1
 post_submission_on_open: true

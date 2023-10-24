@@ -8,7 +8,6 @@ int main() {
     std::cin >> name;
     std::cout << "What is your age?\n";
     std::cin  >> age;
-    std::cout << "Hello " << name << "\n";
-    std::cout << age << " age\n";
+    std::cout << "Hello " << name << "\n" << age << " age\n";
     return 0;
 }

@@ -73,15 +73,15 @@ C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMa
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: ../sfml/sfml-src/src/SFML/Main/MainWin32.cpp
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj -MF CMakeFiles\sfml-main.dir\MainWin32.cpp.obj.d -o CMakeFiles\sfml-main.dir\MainWin32.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj -MF CMakeFiles\sfml-main.dir\MainWin32.cpp.obj.d -o CMakeFiles\sfml-main.dir\MainWin32.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp
 
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-main.dir/MainWin32.cpp.i"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp > CMakeFiles\sfml-main.dir\MainWin32.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp > CMakeFiles\sfml-main.dir\MainWin32.cpp.i
 
 C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-main.dir/MainWin32.cpp.s"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp -o CMakeFiles\sfml-main.dir\MainWin32.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-build\src\SFML\Main && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\sfml\sfml-src\src\SFML\Main\MainWin32.cpp -o CMakeFiles\sfml-main.dir\MainWin32.cpp.s
 
 # Object files for target sfml-main
 sfml__main_OBJECTS = \

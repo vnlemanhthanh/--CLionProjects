@@ -72,15 +72,15 @@ WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/mai
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.obj: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/Initialization/src/main.cpp
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.obj: WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.obj"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.obj -MF CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.obj -MF CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp
 
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.i"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp > CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp > CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.i
 
 WarmUp/Quiz/Initialization/CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WarmUp-Quiz-Initialization-run.dir/src/main.cpp.s"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp -o CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\Initialization && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\Initialization\src\main.cpp -o CMakeFiles\WarmUp-Quiz-Initialization-run.dir\src\main.cpp.s
 
 # Object files for target WarmUp-Quiz-Initialization-run
 WarmUp__Quiz__Initialization__run_OBJECTS = \

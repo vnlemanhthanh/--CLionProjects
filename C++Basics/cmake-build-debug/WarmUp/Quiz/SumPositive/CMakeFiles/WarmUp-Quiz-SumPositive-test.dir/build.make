@@ -73,15 +73,15 @@ WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cp
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/SumPositive/test/test.cpp
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj: WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj -MF CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj -MF CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.obj.d -o CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.obj -c C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp
 
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.i"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp > CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp > CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.i
 
 WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.s"
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp -o CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\WarmUp\Quiz\SumPositive && C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vnlemanhthanh\CLionProjects\C++Basics\WarmUp\Quiz\SumPositive\test\test.cpp -o CMakeFiles\WarmUp-Quiz-SumPositive-test.dir\test\test.cpp.s
 
 # Object files for target WarmUp-Quiz-SumPositive-test
 WarmUp__Quiz__SumPositive__test_OBJECTS = \

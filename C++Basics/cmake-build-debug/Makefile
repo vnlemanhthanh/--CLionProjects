@@ -1032,17 +1032,43 @@ WarmUp-HelloWorld-Welcome-run/fast:
 .PHONY : WarmUp-HelloWorld-Welcome-run/fast
 
 #=============================================================================
-# Target rules for targets named WarmUp-MovingOn-StartTheGame-run
+# Target rules for targets named WarmUp-MovingOn-MovingUp-run
 
 # Build rule for target.
-WarmUp-MovingOn-StartTheGame-run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp-MovingOn-StartTheGame-run
-.PHONY : WarmUp-MovingOn-StartTheGame-run
+WarmUp-MovingOn-MovingUp-run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp-MovingOn-MovingUp-run
+.PHONY : WarmUp-MovingOn-MovingUp-run
 
 # fast build rule for target.
-WarmUp-MovingOn-StartTheGame-run/fast:
-	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/build
-.PHONY : WarmUp-MovingOn-StartTheGame-run/fast
+WarmUp-MovingOn-MovingUp-run/fast:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-run/fast
+
+#=============================================================================
+# Target rules for targets named WarmUp-MovingOn-MovingUp-test-src-part
+
+# Build rule for target.
+WarmUp-MovingOn-MovingUp-test-src-part: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp-MovingOn-MovingUp-test-src-part
+.PHONY : WarmUp-MovingOn-MovingUp-test-src-part
+
+# fast build rule for target.
+WarmUp-MovingOn-MovingUp-test-src-part/fast:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-test-src-part/fast
+
+#=============================================================================
+# Target rules for targets named WarmUp-MovingOn-MovingUp-test
+
+# Build rule for target.
+WarmUp-MovingOn-MovingUp-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp-MovingOn-MovingUp-test
+.PHONY : WarmUp-MovingOn-MovingUp-test
+
+# fast build rule for target.
+WarmUp-MovingOn-MovingUp-test/fast:
+	$(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-test/fast
 
 #=============================================================================
 # Target rules for targets named WarmUp-Quiz-Calculator-run
@@ -1230,7 +1256,9 @@ help:
 	@echo ... WarmUp-HelloWorld-IntroduceYourself-run
 	@echo ... WarmUp-HelloWorld-TypesOfVariables-run
 	@echo ... WarmUp-HelloWorld-Welcome-run
-	@echo ... WarmUp-MovingOn-StartTheGame-run
+	@echo ... WarmUp-MovingOn-MovingUp-run
+	@echo ... WarmUp-MovingOn-MovingUp-test
+	@echo ... WarmUp-MovingOn-MovingUp-test-src-part
 	@echo ... WarmUp-Quiz-Calculator-run
 	@echo ... WarmUp-Quiz-Initialization-run
 	@echo ... WarmUp-Quiz-LetUsStart-run

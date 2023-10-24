@@ -37,7 +37,7 @@ files:
         status: Solved
         encrypted_possible_answer: YdHlJKrHwXknbeLzU1UAnpiYlo9NhGds7farGKjEr08=
       - offset: 220
-        length: 72
+        length: 57
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -52,5 +52,5 @@ feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 10 Oct 2023 17:17:26 UTC"
+  time: "Tue, 24 Oct 2023 08:14:26 UTC"
 record: -1

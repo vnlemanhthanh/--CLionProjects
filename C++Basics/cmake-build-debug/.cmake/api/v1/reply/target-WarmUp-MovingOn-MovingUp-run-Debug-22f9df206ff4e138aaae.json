@@ -1,0 +1,393 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "WarmUp/MovingOn/task/WarmUp-MovingOn-MovingUp-run.exe"
+		},
+		{
+			"path" : "WarmUp/MovingOn/task/WarmUp-MovingOn-MovingUp-run.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_link_sfml",
+			"prepare_sfml_framework_lesson_task",
+			"sfml_find_package",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"WarmUp/MovingOn/task/CMakeLists.txt",
+			"cmake/utils.cmake",
+			"sfml/sfml-src/src/SFML/Window/CMakeLists.txt",
+			"sfml/sfml-src/cmake/Macros.cmake",
+			"sfml/sfml-src/src/SFML/Graphics/CMakeLists.txt",
+			"sfml/sfml-src/src/SFML/System/CMakeLists.txt",
+			"sfml/sfml-src/src/SFML/Audio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 279,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 257,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 137,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 11
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 99,
+				"parent" : 13
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 69,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 71,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "SFML_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "sfml-window::@51f9a8482a9fa84d5d99"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sfml-system::@fe9b61d4feb517bdb9bc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sfml-graphics::@aa79b94117f2580376d4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sfml-audio::@caea18e7fd6a99126336"
+		}
+	],
+	"id" : "WarmUp-MovingOn-MovingUp-run::@75d765f6b5ff3479093d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-system-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-window-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-graphics-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-audio-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-window-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgdi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libfreetype.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-build\\lib\\libsfml-system-s-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lwinmm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libopenal32.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbisenc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbisfile.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libvorbis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libogg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "C:\\Users\\vnlemanhthanh\\CLionProjects\\C++Basics\\sfml\\sfml-src\\extlibs\\libs-mingw\\x64\\libFLAC.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "WarmUp-MovingOn-MovingUp-run",
+	"nameOnDisk" : "WarmUp-MovingOn-MovingUp-run.exe",
+	"paths" : 
+	{
+		"build" : "WarmUp/MovingOn/task",
+		"source" : "WarmUp/MovingOn/task"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "WarmUp/MovingOn/task/src/point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "WarmUp/MovingOn/task/src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "WarmUp/MovingOn/task/src/move.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"sfml/sfml-src/cmake/Macros.cmake",
+			"sfml/sfml-src/src/SFML/System/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 161,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/lib/libsfml-system-s-d.a"
+			],
+			"targetId" : "sfml-system::@fe9b61d4feb517bdb9bc",
+			"targetIndex" : 77,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-build/src/SFML/System",
+		"source" : "sfml/sfml-src/src/SFML/System"
+	}
+}

@@ -161,49 +161,53 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule
-.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule
 
 # Convenience name for target.
-WarmUp-MovingOn-StartTheGame-run: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/rule
-.PHONY : WarmUp-MovingOn-StartTheGame-run
+WarmUp-MovingOn-MovingUp-run: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-run
 
 # fast build rule for target.
-WarmUp-MovingOn-StartTheGame-run/fast:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/build
-.PHONY : WarmUp-MovingOn-StartTheGame-run/fast
+WarmUp-MovingOn-MovingUp-run/fast:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-run/fast
 
-src/empty.obj: src/empty.cpp.obj
-.PHONY : src/empty.obj
+# Convenience name for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule
 
-# target to build an object file
-src/empty.cpp.obj:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/empty.cpp.obj
-.PHONY : src/empty.cpp.obj
+# Convenience name for target.
+WarmUp-MovingOn-MovingUp-test-src-part: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-test-src-part
 
-src/empty.i: src/empty.cpp.i
-.PHONY : src/empty.i
+# fast build rule for target.
+WarmUp-MovingOn-MovingUp-test-src-part/fast:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-test-src-part/fast
 
-# target to preprocess a source file
-src/empty.cpp.i:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/empty.cpp.i
-.PHONY : src/empty.cpp.i
+# Convenience name for target.
+WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule
+.PHONY : WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule
 
-src/empty.s: src/empty.cpp.s
-.PHONY : src/empty.s
+# Convenience name for target.
+WarmUp-MovingOn-MovingUp-test: WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/rule
+.PHONY : WarmUp-MovingOn-MovingUp-test
 
-# target to generate assembly for a file
-src/empty.cpp.s:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/empty.cpp.s
-.PHONY : src/empty.cpp.s
+# fast build rule for target.
+WarmUp-MovingOn-MovingUp-test/fast:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/build
+.PHONY : WarmUp-MovingOn-MovingUp-test/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/main.cpp.obj
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -211,7 +215,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/main.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -219,8 +223,83 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-StartTheGame-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-StartTheGame-run.dir/src/main.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/move.obj: src/move.cpp.obj
+.PHONY : src/move.obj
+
+# target to build an object file
+src/move.cpp.obj:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/move.cpp.obj
+.PHONY : src/move.cpp.obj
+
+src/move.i: src/move.cpp.i
+.PHONY : src/move.i
+
+# target to preprocess a source file
+src/move.cpp.i:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/move.cpp.i
+.PHONY : src/move.cpp.i
+
+src/move.s: src/move.cpp.s
+.PHONY : src/move.s
+
+# target to generate assembly for a file
+src/move.cpp.s:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/move.cpp.s
+.PHONY : src/move.cpp.s
+
+src/point.obj: src/point.cpp.obj
+.PHONY : src/point.obj
+
+# target to build an object file
+src/point.cpp.obj:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/point.cpp.obj
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.obj
+.PHONY : src/point.cpp.obj
+
+src/point.i: src/point.cpp.i
+.PHONY : src/point.i
+
+# target to preprocess a source file
+src/point.cpp.i:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/point.cpp.i
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.i
+.PHONY : src/point.cpp.i
+
+src/point.s: src/point.cpp.s
+.PHONY : src/point.s
+
+# target to generate assembly for a file
+src/point.cpp.s:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-run.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-run.dir/src/point.cpp.s
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test-src-part.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.s
+.PHONY : src/point.cpp.s
+
+test/test.obj: test/test.cpp.obj
+.PHONY : test/test.obj
+
+# target to build an object file
+test/test.cpp.obj:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.obj
+.PHONY : test/test.cpp.obj
+
+test/test.i: test/test.cpp.i
+.PHONY : test/test.i
+
+# target to preprocess a source file
+test/test.cpp.i:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.i
+.PHONY : test/test.cpp.i
+
+test/test.s: test/test.cpp.s
+.PHONY : test/test.s
+
+# target to generate assembly for a file
+test/test.cpp.s:
+	cd /d C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug && $(MAKE) $(MAKESILENT) -f WarmUp\MovingOn\task\CMakeFiles\WarmUp-MovingOn-MovingUp-test.dir\build.make WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.s
+.PHONY : test/test.cpp.s
 
 # Help Target
 help:
@@ -234,13 +313,21 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... WarmUp-MovingOn-StartTheGame-run
-	@echo ... src/empty.obj
-	@echo ... src/empty.i
-	@echo ... src/empty.s
+	@echo ... WarmUp-MovingOn-MovingUp-run
+	@echo ... WarmUp-MovingOn-MovingUp-test
+	@echo ... WarmUp-MovingOn-MovingUp-test-src-part
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/move.obj
+	@echo ... src/move.i
+	@echo ... src/move.s
+	@echo ... src/point.obj
+	@echo ... src/point.i
+	@echo ... src/point.s
+	@echo ... test/test.obj
+	@echo ... test/test.i
+	@echo ... test/test.s
 .PHONY : help
 
 
