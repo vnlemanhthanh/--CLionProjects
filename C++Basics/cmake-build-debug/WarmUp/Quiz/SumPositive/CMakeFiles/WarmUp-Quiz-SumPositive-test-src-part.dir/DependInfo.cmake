@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/SumPositive/src/task.cpp" "WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/src/task.cpp.obj" "gcc" "WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/src/task.cpp.obj.d"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/SumPositive/src/task.cpp" "WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/src/task.cpp.o" "gcc" "WarmUp/Quiz/SumPositive/CMakeFiles/WarmUp-Quiz-SumPositive-test-src-part.dir/src/task.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

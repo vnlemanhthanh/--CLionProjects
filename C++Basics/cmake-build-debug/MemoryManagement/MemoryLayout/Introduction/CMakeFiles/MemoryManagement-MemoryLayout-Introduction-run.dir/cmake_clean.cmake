@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-Introduction-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-Introduction-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Introduction-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Introduction-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-Introduction-run.exe"
-  "MemoryManagement-MemoryLayout-Introduction-run.exe.manifest"
   "MemoryManagement-MemoryLayout-Introduction-run.pdb"
   "libMemoryManagement-MemoryLayout-Introduction-run.dll.a"
 )

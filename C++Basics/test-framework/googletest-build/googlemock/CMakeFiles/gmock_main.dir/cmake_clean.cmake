@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb"
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a"
-  "CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
-  "CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj.d"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a"
+  "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

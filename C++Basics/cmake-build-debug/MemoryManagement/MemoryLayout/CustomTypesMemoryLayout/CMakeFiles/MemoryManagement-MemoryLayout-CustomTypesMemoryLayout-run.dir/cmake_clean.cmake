@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.exe"
-  "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.exe.manifest"
   "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.pdb"
   "libMemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.dll.a"
 )

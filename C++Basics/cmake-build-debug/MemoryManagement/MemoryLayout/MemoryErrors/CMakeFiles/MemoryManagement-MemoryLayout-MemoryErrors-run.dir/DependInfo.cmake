@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryErrors/src/main.cpp" "MemoryManagement/MemoryLayout/MemoryErrors/CMakeFiles/MemoryManagement-MemoryLayout-MemoryErrors-run.dir/src/main.cpp.obj" "gcc" "MemoryManagement/MemoryLayout/MemoryErrors/CMakeFiles/MemoryManagement-MemoryLayout-MemoryErrors-run.dir/src/main.cpp.obj.d"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryErrors/src/main.cpp" "MemoryManagement/MemoryLayout/MemoryErrors/CMakeFiles/MemoryManagement-MemoryLayout-MemoryErrors-run.dir/src/main.cpp.o" "gcc" "MemoryManagement/MemoryLayout/MemoryErrors/CMakeFiles/MemoryManagement-MemoryLayout-MemoryErrors-run.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

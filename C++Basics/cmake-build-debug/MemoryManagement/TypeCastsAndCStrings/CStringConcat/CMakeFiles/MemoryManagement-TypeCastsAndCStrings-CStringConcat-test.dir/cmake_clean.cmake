@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/test/test.cpp.obj"
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/test/test.cpp.o"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dir/test/test.cpp.o.d"
   "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.exe"
-  "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.exe.manifest"
   "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test.pdb"
   "libMemoryManagement-TypeCastsAndCStrings-CStringConcat-test.dll.a"
 )

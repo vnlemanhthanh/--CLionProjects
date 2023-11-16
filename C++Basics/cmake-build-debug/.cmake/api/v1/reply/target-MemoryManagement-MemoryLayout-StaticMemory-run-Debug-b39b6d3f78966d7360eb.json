@@ -1,0 +1,102 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/StaticMemory/MemoryManagement-MemoryLayout-StaticMemory-run.exe"
+		},
+		{
+			"path" : "MemoryManagement/MemoryLayout/StaticMemory/MemoryManagement-MemoryLayout-StaticMemory-run.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"MemoryManagement/MemoryLayout/StaticMemory/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-StaticMemory-run::@a18c8983d24a87e2141c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-auto-import",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MemoryManagement-MemoryLayout-StaticMemory-run",
+	"nameOnDisk" : "MemoryManagement-MemoryLayout-StaticMemory-run.exe",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/StaticMemory",
+		"source" : "MemoryManagement/MemoryLayout/StaticMemory"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/StaticMemory/src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-SizeOf-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-SizeOf-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-SizeOf-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-SizeOf-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-SizeOf-run.exe"
-  "MemoryManagement-MemoryLayout-SizeOf-run.exe.manifest"
   "MemoryManagement-MemoryLayout-SizeOf-run.pdb"
   "libMemoryManagement-MemoryLayout-SizeOf-run.dll.a"
 )

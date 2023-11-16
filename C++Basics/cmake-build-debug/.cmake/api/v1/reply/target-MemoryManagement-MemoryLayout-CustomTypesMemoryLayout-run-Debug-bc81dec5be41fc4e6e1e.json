@@ -1,0 +1,102 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.exe"
+		},
+		{
+			"path" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run::@9ec3369d5039d407ea30",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-auto-import",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run",
+	"nameOnDisk" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run.exe",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout",
+		"source" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

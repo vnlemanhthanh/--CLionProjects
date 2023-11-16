@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/src/main.cpp.obj"
-  "CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/src/main.cpp.o"
+  "CMakeFiles/WarmUp-HelloWorld-AgeDoestNotMatter-run.dir/src/main.cpp.o.d"
   "WarmUp-HelloWorld-AgeDoestNotMatter-run.exe"
-  "WarmUp-HelloWorld-AgeDoestNotMatter-run.exe.manifest"
   "WarmUp-HelloWorld-AgeDoestNotMatter-run.pdb"
   "libWarmUp-HelloWorld-AgeDoestNotMatter-run.dll.a"
 )

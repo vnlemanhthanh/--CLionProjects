@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj"
-  "CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.o"
+  "CMakeFiles/WarmUp-Quiz-SumPositive-test.dir/test/test.cpp.o.d"
   "WarmUp-Quiz-SumPositive-test.exe"
-  "WarmUp-Quiz-SumPositive-test.exe.manifest"
   "WarmUp-Quiz-SumPositive-test.pdb"
   "libWarmUp-Quiz-SumPositive-test.dll.a"
 )

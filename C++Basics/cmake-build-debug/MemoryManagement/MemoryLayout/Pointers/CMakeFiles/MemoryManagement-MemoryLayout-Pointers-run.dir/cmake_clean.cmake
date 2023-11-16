@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Pointers-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-Pointers-run.exe"
-  "MemoryManagement-MemoryLayout-Pointers-run.exe.manifest"
   "MemoryManagement-MemoryLayout-Pointers-run.pdb"
   "libMemoryManagement-MemoryLayout-Pointers-run.dll.a"
 )

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build",
+		"source" : "test-framework/googletest-src"
+	}
+}

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/src/task.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/src/task.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/src/task.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-test-src-part.dir/src/task.cpp.o.d"
   "libMemoryManagement-MemoryLayout-Swap-test-src-part.a"
   "libMemoryManagement-MemoryLayout-Swap-test-src-part.pdb"
 )

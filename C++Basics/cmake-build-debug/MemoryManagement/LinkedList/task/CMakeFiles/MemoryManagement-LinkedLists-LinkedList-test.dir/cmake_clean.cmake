@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/test/test.cpp.obj"
-  "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/test/test.cpp.o"
+  "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test.dir/test/test.cpp.o.d"
   "MemoryManagement-LinkedLists-LinkedList-test.exe"
-  "MemoryManagement-LinkedLists-LinkedList-test.exe.manifest"
   "MemoryManagement-LinkedLists-LinkedList-test.pdb"
   "libMemoryManagement-LinkedLists-LinkedList-test.dll.a"
 )

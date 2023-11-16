@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-DynamicMemory-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-DynamicMemory-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-DynamicMemory-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-DynamicMemory-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-DynamicMemory-run.exe"
-  "MemoryManagement-MemoryLayout-DynamicMemory-run.exe.manifest"
   "MemoryManagement-MemoryLayout-DynamicMemory-run.pdb"
   "libMemoryManagement-MemoryLayout-DynamicMemory-run.dll.a"
 )

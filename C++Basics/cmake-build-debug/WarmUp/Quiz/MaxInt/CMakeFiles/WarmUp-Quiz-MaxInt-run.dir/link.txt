@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\WarmUp-Quiz-MaxInt-run.dir/objects.a
-C:\PROGRA~1\mingw64\bin\ar.exe qc CMakeFiles\WarmUp-Quiz-MaxInt-run.dir/objects.a @CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\objects1.rsp
-C:\PROGRA~1\mingw64\bin\C__~1.EXE -g -Wl,--whole-archive CMakeFiles\WarmUp-Quiz-MaxInt-run.dir/objects.a -Wl,--no-whole-archive -o WarmUp-Quiz-MaxInt-run.exe -Wl,--out-implib,libWarmUp-Quiz-MaxInt-run.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WarmUp-Quiz-MaxInt-run.dir\linkLibs.rsp
+/usr/bin/c++.exe -g -Wl,--enable-auto-import "CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.o" -o WarmUp-Quiz-MaxInt-run.exe -Wl,--out-implib,libWarmUp-Quiz-MaxInt-run.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

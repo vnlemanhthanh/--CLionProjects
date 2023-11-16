@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj"
-  "CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.obj.d"
+  "CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.o"
+  "CMakeFiles/WarmUp-Quiz-MaxInt-run.dir/src/task.cpp.o.d"
   "WarmUp-Quiz-MaxInt-run.exe"
-  "WarmUp-Quiz-MaxInt-run.exe.manifest"
   "WarmUp-Quiz-MaxInt-run.pdb"
   "libWarmUp-Quiz-MaxInt-run.dll.a"
 )

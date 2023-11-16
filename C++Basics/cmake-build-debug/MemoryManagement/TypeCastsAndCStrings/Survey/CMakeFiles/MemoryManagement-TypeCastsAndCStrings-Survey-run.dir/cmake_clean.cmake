@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-Survey-run.dir/src/main.cpp.o.d"
   "MemoryManagement-TypeCastsAndCStrings-Survey-run.exe"
-  "MemoryManagement-TypeCastsAndCStrings-Survey-run.exe.manifest"
   "MemoryManagement-TypeCastsAndCStrings-Survey-run.pdb"
   "libMemoryManagement-TypeCastsAndCStrings-Survey-run.dll.a"
 )

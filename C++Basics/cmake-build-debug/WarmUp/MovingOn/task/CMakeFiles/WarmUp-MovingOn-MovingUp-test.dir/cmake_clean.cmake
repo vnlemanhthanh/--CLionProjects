@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.obj"
-  "CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.o"
+  "CMakeFiles/WarmUp-MovingOn-MovingUp-test.dir/test/test.cpp.o.d"
   "WarmUp-MovingOn-MovingUp-test.exe"
-  "WarmUp-MovingOn-MovingUp-test.exe.manifest"
   "WarmUp-MovingOn-MovingUp-test.pdb"
   "libWarmUp-MovingOn-MovingUp-test.dll.a"
 )

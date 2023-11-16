@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-run.dir/src/task.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-run.dir/src/task.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-run.dir/src/task.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-Swap-run.dir/src/task.cpp.o.d"
   "MemoryManagement-MemoryLayout-Swap-run.exe"
-  "MemoryManagement-MemoryLayout-Swap-run.exe.manifest"
   "MemoryManagement-MemoryLayout-Swap-run.pdb"
   "libMemoryManagement-MemoryLayout-Swap-run.dll.a"
 )

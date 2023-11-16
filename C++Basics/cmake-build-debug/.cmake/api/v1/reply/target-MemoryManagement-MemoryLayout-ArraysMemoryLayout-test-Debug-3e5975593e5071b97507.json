@@ -1,0 +1,171 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.exe"
+		},
+		{
+			"path" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout/MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"configure_test_target",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/utils.cmake",
+			"MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@f61055787a6fde69ffa6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtest_main::@f61055787a6fde69ffa6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part::@77d37421260638a5382d"
+		}
+	],
+	"id" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test::@77d37421260638a5382d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-auto-import",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libMemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libgtest.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test",
+	"nameOnDisk" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test.exe",
+	"paths" : 
+	{
+		"build" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout",
+		"source" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout/test/test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

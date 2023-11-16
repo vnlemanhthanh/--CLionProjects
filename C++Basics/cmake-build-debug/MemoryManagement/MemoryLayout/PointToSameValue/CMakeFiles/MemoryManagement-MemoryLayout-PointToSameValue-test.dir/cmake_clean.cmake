@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/test/test.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/test/test.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-PointToSameValue-test.dir/test/test.cpp.o.d"
   "MemoryManagement-MemoryLayout-PointToSameValue-test.exe"
-  "MemoryManagement-MemoryLayout-PointToSameValue-test.exe.manifest"
   "MemoryManagement-MemoryLayout-PointToSameValue-test.pdb"
   "libMemoryManagement-MemoryLayout-PointToSameValue-test.dll.a"
 )

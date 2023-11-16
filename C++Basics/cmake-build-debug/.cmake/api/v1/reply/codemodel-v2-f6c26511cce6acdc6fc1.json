@@ -1,0 +1,2014 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-framework.googletest-src-Debug-d659c357d07d7edccfbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "test-framework/googletest-src"
+				},
+				{
+					"build" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-framework.googletest-src.googlemock-Debug-c4e9c340568ddd5b3a31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "test-framework/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						69,
+						70
+					]
+				},
+				{
+					"build" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-framework.googletest-src.googletest-Debug-a8686584b508dd566000.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "test-framework/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						71,
+						72
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/Const",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.Const-Debug-dc105244e318de4febfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "MemoryManagement/ConstAndReferences/Const",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/ConstQuestion",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.ConstQuestion-Debug-a2760dbb1d165fc1fc47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "MemoryManagement/ConstAndReferences/ConstQuestion",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/PassingArguments",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.PassingArguments-Debug-91fff30b3ab98c2b373c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "MemoryManagement/ConstAndReferences/PassingArguments",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/PassingArgumentsQuestion",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.PassingArgumentsQuestion-Debug-bb06c37e5340acd83747.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "MemoryManagement/ConstAndReferences/PassingArgumentsQuestion",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/References",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.References-Debug-33a6a33e3e3f4112cabd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "MemoryManagement/ConstAndReferences/References",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "MemoryManagement/ConstAndReferences/SwapAgain",
+					"jsonFile" : "directory-MemoryManagement.ConstAndReferences.SwapAgain-Debug-ec7cf902eb65606a6192.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "MemoryManagement/ConstAndReferences/SwapAgain",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "MemoryManagement/LinkedList/task",
+					"jsonFile" : "directory-MemoryManagement.LinkedList.task-Debug-4448d449c5af52c3603d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "MemoryManagement/LinkedList/task",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/AddressEscape",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.AddressEscape-Debug-070f40b69638dea4d401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "MemoryManagement/MemoryLayout/AddressEscape",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/AddressOf",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.AddressOf-Debug-a1349a20753771a93179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "MemoryManagement/MemoryLayout/AddressOf",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.ArraysMemoryLayout-Debug-20f80d6f788455ecb3d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "MemoryManagement/MemoryLayout/ArraysMemoryLayout",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/CopyArray",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.CopyArray-Debug-fc63e816115c0d8b663b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "MemoryManagement/MemoryLayout/CopyArray",
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.CustomTypesMemoryLayout-Debug-119d3aa7e70343779104.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "MemoryManagement/MemoryLayout/CustomTypesMemoryLayout",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/DynamicMemory",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.DynamicMemory-Debug-1e30394819f163997795.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "MemoryManagement/MemoryLayout/DynamicMemory",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/FunctionPointers",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.FunctionPointers-Debug-3aa825958fb1d4936d96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "MemoryManagement/MemoryLayout/FunctionPointers",
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/Introduction",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.Introduction-Debug-08a017726e6b3ffcd5b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "MemoryManagement/MemoryLayout/Introduction",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/MemoryErrors",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.MemoryErrors-Debug-5a7e8ab0448a7d375511.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "MemoryManagement/MemoryLayout/MemoryErrors",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/MemoryRegions",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.MemoryRegions-Debug-85349ebedb77cf03acd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "MemoryManagement/MemoryLayout/MemoryRegions",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/NullPointer",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.NullPointer-Debug-f87621cae9be198134aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "MemoryManagement/MemoryLayout/NullPointer",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/PointToSameValue",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.PointToSameValue-Debug-fe5eba3856eb6dcd64b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "MemoryManagement/MemoryLayout/PointToSameValue",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/PointerArithmetic",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.PointerArithmetic-Debug-0f19efc416e4476f7ce0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "MemoryManagement/MemoryLayout/PointerArithmetic",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/Pointers",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.Pointers-Debug-69aa4c9a7016c79b428a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "MemoryManagement/MemoryLayout/Pointers",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/SizeOf",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.SizeOf-Debug-a3dfe698140a288413ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "MemoryManagement/MemoryLayout/SizeOf",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/SizeOfPointer",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.SizeOfPointer-Debug-b5872943476793971c67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "MemoryManagement/MemoryLayout/SizeOfPointer",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/StackMemory",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.StackMemory-Debug-1cbceba9e9d162e00b4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 27,
+					"source" : "MemoryManagement/MemoryLayout/StackMemory",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/StaticMemory",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.StaticMemory-Debug-8e9d9c8e9032b05a8387.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "MemoryManagement/MemoryLayout/StaticMemory",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "MemoryManagement/MemoryLayout/Swap",
+					"jsonFile" : "directory-MemoryManagement.MemoryLayout.Swap-Debug-19e3d5f658e63440db7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "MemoryManagement/MemoryLayout/Swap",
+					"targetIndexes" : 
+					[
+						37,
+						38,
+						39
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CCast",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CCast-Debug-2de455985312a0c90ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CCast",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CStringConcat",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CStringConcat-Debug-b81fd400e14b52e17c97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 31,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CStringConcat",
+					"targetIndexes" : 
+					[
+						41,
+						42,
+						43
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CStringSplit",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CStringSplit-Debug-231656c8dfdf685edbda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 32,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CStringSplit",
+					"targetIndexes" : 
+					[
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CStrings",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CStrings-Debug-4564b6e7428e2f87b11c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 33,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CStrings",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CStyle",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CStyle-Debug-a9505e77c500af22cfb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 34,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CStyle",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/CppCast",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.CppCast-Debug-387e9c617fe42298221b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 35,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/CppCast",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/Survey",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.Survey-Debug-7f30ac5750e65f3f2705.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 36,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/Survey",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion",
+					"jsonFile" : "directory-MemoryManagement.TypeCastsAndCStrings.TypeCastsQuestion-Debug-c8ec8d91a9cd112444e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 37,
+					"source" : "MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "WarmUp/HelloWorld/AgeDoestNotMatter",
+					"jsonFile" : "directory-WarmUp.HelloWorld.AgeDoestNotMatter-Debug-d9810789fff3f25ddca7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 38,
+					"source" : "WarmUp/HelloWorld/AgeDoestNotMatter",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "WarmUp/HelloWorld/FirstWords",
+					"jsonFile" : "directory-WarmUp.HelloWorld.FirstWords-Debug-0193563b898fa96e9bd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "WarmUp/HelloWorld/FirstWords",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "WarmUp/HelloWorld/IntroduceYourself",
+					"jsonFile" : "directory-WarmUp.HelloWorld.IntroduceYourself-Debug-fdeb27efe276fa5564ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 40,
+					"source" : "WarmUp/HelloWorld/IntroduceYourself",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "WarmUp/HelloWorld/TypesOfVariables",
+					"jsonFile" : "directory-WarmUp.HelloWorld.TypesOfVariables-Debug-f73e3ba76e78109adb41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 41,
+					"source" : "WarmUp/HelloWorld/TypesOfVariables",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "WarmUp/HelloWorld/Welcome",
+					"jsonFile" : "directory-WarmUp.HelloWorld.Welcome-Debug-cee50ee3c1c0e9b27c03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 42,
+					"source" : "WarmUp/HelloWorld/Welcome",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "WarmUp/MovingOn/task",
+					"jsonFile" : "directory-WarmUp.MovingOn.task-Debug-369dae4e6a326fe2e73d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 43,
+					"source" : "WarmUp/MovingOn/task",
+					"targetIndexes" : 
+					[
+						57,
+						58,
+						59
+					]
+				},
+				{
+					"build" : "WarmUp/Quiz/Calculator",
+					"jsonFile" : "directory-WarmUp.Quiz.Calculator-Debug-c78d8e1e975256177d70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 44,
+					"source" : "WarmUp/Quiz/Calculator",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "WarmUp/Quiz/Initialization",
+					"jsonFile" : "directory-WarmUp.Quiz.Initialization-Debug-a81d3f4a91ba2422ad31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 45,
+					"source" : "WarmUp/Quiz/Initialization",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "WarmUp/Quiz/LetUsStart",
+					"jsonFile" : "directory-WarmUp.Quiz.LetUsStart-Debug-e7da6b40cd557975df66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 46,
+					"source" : "WarmUp/Quiz/LetUsStart",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "WarmUp/Quiz/MaxInt",
+					"jsonFile" : "directory-WarmUp.Quiz.MaxInt-Debug-fe1143e3ed5a256147ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 47,
+					"source" : "WarmUp/Quiz/MaxInt",
+					"targetIndexes" : 
+					[
+						63,
+						64,
+						65
+					]
+				},
+				{
+					"build" : "WarmUp/Quiz/SumPositive",
+					"jsonFile" : "directory-WarmUp.Quiz.SumPositive-Debug-53d31a3b62c0b5e22d21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 48,
+					"source" : "WarmUp/Quiz/SumPositive",
+					"targetIndexes" : 
+					[
+						66,
+						67,
+						68
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cppbasics"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						69,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						71,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "MemoryManagement-ConstAndReferences-Const",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "MemoryManagement-ConstAndReferences-ConstQuestion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "MemoryManagement-ConstAndReferences-PassingArguments",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "MemoryManagement-ConstAndReferences-PassingArgumentsQuestion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "MemoryManagement-ConstAndReferences-References",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MemoryManagement-ConstAndReferences-SwapAgain",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "MemoryManagement-LinkedLists-LinkedList",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "MemoryManagement-MemoryLayout-AddressEscape",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "MemoryManagement-MemoryLayout-AddressOf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "MemoryManagement-MemoryLayout-CopyArray",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "MemoryManagement-MemoryLayout-DynamicMemory",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "MemoryManagement-MemoryLayout-FunctionPointers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "MemoryManagement-MemoryLayout-Introduction",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "MemoryManagement-MemoryLayout-MemoryErrors",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "MemoryManagement-MemoryLayout-MemoryRegions",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "MemoryManagement-MemoryLayout-NullPointer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "MemoryManagement-MemoryLayout-PointToSameValue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "MemoryManagement-MemoryLayout-PointerArithmetic",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "MemoryManagement-MemoryLayout-Pointers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "MemoryManagement-MemoryLayout-SizeOf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "MemoryManagement-MemoryLayout-SizeOfPointer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "MemoryManagement-MemoryLayout-StackMemory",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "MemoryManagement-MemoryLayout-StaticMemory",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "MemoryManagement-MemoryLayout-Swap",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37,
+						38,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CCast",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41,
+						42,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStrings",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStyle",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CppCast",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-Survey",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "WarmUp-HelloWorld-AgeDoestNotMatter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "WarmUp-HelloWorld-FirstWords",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "WarmUp-HelloWorld-IntroduceYourself",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "WarmUp-HelloWorld-TypesOfVariables",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "WarmUp-HelloWorld-Welcome",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "WarmUp-MovingOn-MovingUp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						57,
+						58,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "WarmUp-Quiz-Calculator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						45
+					],
+					"name" : "WarmUp-Quiz-Initialization",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46
+					],
+					"name" : "WarmUp-Quiz-LetUsStart",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						47
+					],
+					"name" : "WarmUp-Quiz-MaxInt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						63,
+						64,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						48
+					],
+					"name" : "WarmUp-Quiz-SumPositive",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						66,
+						67,
+						68
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "MemoryManagement-ConstAndReferences-Const-run::@3f865fb0994d61971421",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-Const-run-Debug-1affe1d1686a8aac919a.json",
+					"name" : "MemoryManagement-ConstAndReferences-Const-run",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MemoryManagement-ConstAndReferences-ConstQuestion-run::@bacecdfc3783e0f27672",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-ConstQuestion-run-Debug-dede712310a184d3fe94.json",
+					"name" : "MemoryManagement-ConstAndReferences-ConstQuestion-run",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "MemoryManagement-ConstAndReferences-PassingArguments-run::@e0c6e42436b690b6f248",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-PassingArguments-run-Debug-d147cc9669b3a99f9acc.json",
+					"name" : "MemoryManagement-ConstAndReferences-PassingArguments-run",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MemoryManagement-ConstAndReferences-PassingArgumentsQuestion-run::@0b3f1f54e4338ccb4ee1",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-PassingArgumentsQuestion-run-Debug-bfa2ca16a1cf334e134b.json",
+					"name" : "MemoryManagement-ConstAndReferences-PassingArgumentsQuestion-run",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "MemoryManagement-ConstAndReferences-References-run::@eb29a6f114e411802ebf",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-References-run-Debug-b8fa30b9fafdba77b62d.json",
+					"name" : "MemoryManagement-ConstAndReferences-References-run",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryManagement-ConstAndReferences-SwapAgain-run::@c0ad22fecf3cbec91275",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-SwapAgain-run-Debug-beb3fde10a86e81682c3.json",
+					"name" : "MemoryManagement-ConstAndReferences-SwapAgain-run",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryManagement-ConstAndReferences-SwapAgain-test::@c0ad22fecf3cbec91275",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-SwapAgain-test-Debug-c483a27c9a6b977163b3.json",
+					"name" : "MemoryManagement-ConstAndReferences-SwapAgain-test",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryManagement-ConstAndReferences-SwapAgain-test-src-part::@c0ad22fecf3cbec91275",
+					"jsonFile" : "target-MemoryManagement-ConstAndReferences-SwapAgain-test-src-part-Debug-ffed57061a5f7b08a357.json",
+					"name" : "MemoryManagement-ConstAndReferences-SwapAgain-test-src-part",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "MemoryManagement-LinkedLists-LinkedList-run::@9be8d4e9483b40ef2370",
+					"jsonFile" : "target-MemoryManagement-LinkedLists-LinkedList-run-Debug-71d0103d0402ef433e61.json",
+					"name" : "MemoryManagement-LinkedLists-LinkedList-run",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "MemoryManagement-LinkedLists-LinkedList-test::@9be8d4e9483b40ef2370",
+					"jsonFile" : "target-MemoryManagement-LinkedLists-LinkedList-test-Debug-badcbb2c09a8115c8d65.json",
+					"name" : "MemoryManagement-LinkedLists-LinkedList-test",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "MemoryManagement-LinkedLists-LinkedList-test-src-part::@9be8d4e9483b40ef2370",
+					"jsonFile" : "target-MemoryManagement-LinkedLists-LinkedList-test-src-part-Debug-63ad459716da52f4dae5.json",
+					"name" : "MemoryManagement-LinkedLists-LinkedList-test-src-part",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "MemoryManagement-MemoryLayout-AddressEscape-run::@fcdb4246f0bda248334d",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-AddressEscape-run-Debug-e610d02cfef82aec7c97.json",
+					"name" : "MemoryManagement-MemoryLayout-AddressEscape-run",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "MemoryManagement-MemoryLayout-AddressOf-run::@5d414957928a828a69cd",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-AddressOf-run-Debug-af9aefb999568a107010.json",
+					"name" : "MemoryManagement-MemoryLayout-AddressOf-run",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-run::@77d37421260638a5382d",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-ArraysMemoryLayout-run-Debug-aa023eb97bc61826ce90.json",
+					"name" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-run",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test::@77d37421260638a5382d",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-Debug-3e5975593e5071b97507.json",
+					"name" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part::@77d37421260638a5382d",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part-Debug-ab788128bd5bdd5f896d.json",
+					"name" : "MemoryManagement-MemoryLayout-ArraysMemoryLayout-test-src-part",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "MemoryManagement-MemoryLayout-CopyArray-run::@a18ed8521c490e157f67",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-CopyArray-run-Debug-c2207be85932c5afafb4.json",
+					"name" : "MemoryManagement-MemoryLayout-CopyArray-run",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "MemoryManagement-MemoryLayout-CopyArray-test::@a18ed8521c490e157f67",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-CopyArray-test-Debug-fba3fa522b0e5d6126ef.json",
+					"name" : "MemoryManagement-MemoryLayout-CopyArray-test",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "MemoryManagement-MemoryLayout-CopyArray-test-src-part::@a18ed8521c490e157f67",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-CopyArray-test-src-part-Debug-afa51638502c3b130aab.json",
+					"name" : "MemoryManagement-MemoryLayout-CopyArray-test-src-part",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run::@9ec3369d5039d407ea30",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run-Debug-bc81dec5be41fc4e6e1e.json",
+					"name" : "MemoryManagement-MemoryLayout-CustomTypesMemoryLayout-run",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "MemoryManagement-MemoryLayout-DynamicMemory-run::@cd2be39f0e5cdeafa7a3",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-DynamicMemory-run-Debug-16f18fa5746425380d37.json",
+					"name" : "MemoryManagement-MemoryLayout-DynamicMemory-run",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "MemoryManagement-MemoryLayout-FunctionPointers-run::@41773caef54f4ae1a361",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-FunctionPointers-run-Debug-ad4ba5d9fd9162d9fab6.json",
+					"name" : "MemoryManagement-MemoryLayout-FunctionPointers-run",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "MemoryManagement-MemoryLayout-FunctionPointers-test::@41773caef54f4ae1a361",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-FunctionPointers-test-Debug-7b3ae2d75ff609cf4896.json",
+					"name" : "MemoryManagement-MemoryLayout-FunctionPointers-test",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "MemoryManagement-MemoryLayout-FunctionPointers-test-src-part::@41773caef54f4ae1a361",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-FunctionPointers-test-src-part-Debug-c9bd0c5479af02e37786.json",
+					"name" : "MemoryManagement-MemoryLayout-FunctionPointers-test-src-part",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "MemoryManagement-MemoryLayout-Introduction-run::@017f25c59d1710796eb4",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-Introduction-run-Debug-df5f1b709311428f7621.json",
+					"name" : "MemoryManagement-MemoryLayout-Introduction-run",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "MemoryManagement-MemoryLayout-MemoryErrors-run::@fd9697ec54c10b3acad9",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-MemoryErrors-run-Debug-9d4e9a2381bbef72e14b.json",
+					"name" : "MemoryManagement-MemoryLayout-MemoryErrors-run",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "MemoryManagement-MemoryLayout-MemoryRegions-run::@c9fc1a49dd7b1998e5bf",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-MemoryRegions-run-Debug-deec25af7fe0fa6fe9b9.json",
+					"name" : "MemoryManagement-MemoryLayout-MemoryRegions-run",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "MemoryManagement-MemoryLayout-NullPointer-run::@81d687a792c83d956f02",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-NullPointer-run-Debug-4ca942e564ed573cb681.json",
+					"name" : "MemoryManagement-MemoryLayout-NullPointer-run",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "MemoryManagement-MemoryLayout-PointToSameValue-run::@96c0f444467019ba1f8b",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-PointToSameValue-run-Debug-61bc921e93a79eb738bd.json",
+					"name" : "MemoryManagement-MemoryLayout-PointToSameValue-run",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "MemoryManagement-MemoryLayout-PointToSameValue-test::@96c0f444467019ba1f8b",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-PointToSameValue-test-Debug-9e817c5fd69d9e201909.json",
+					"name" : "MemoryManagement-MemoryLayout-PointToSameValue-test",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "MemoryManagement-MemoryLayout-PointToSameValue-test-src-part::@96c0f444467019ba1f8b",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-PointToSameValue-test-src-part-Debug-872f49d9e694a517bd4d.json",
+					"name" : "MemoryManagement-MemoryLayout-PointToSameValue-test-src-part",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "MemoryManagement-MemoryLayout-PointerArithmetic-run::@677983ff67e79de21108",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-PointerArithmetic-run-Debug-860620f8f8af433bb1ce.json",
+					"name" : "MemoryManagement-MemoryLayout-PointerArithmetic-run",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "MemoryManagement-MemoryLayout-Pointers-run::@1046ad86c25d3cb9e644",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-Pointers-run-Debug-21ec4213035a946d4486.json",
+					"name" : "MemoryManagement-MemoryLayout-Pointers-run",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "MemoryManagement-MemoryLayout-SizeOf-run::@23d57af4488f0dab5355",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-SizeOf-run-Debug-351a6269814b872e9c76.json",
+					"name" : "MemoryManagement-MemoryLayout-SizeOf-run",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "MemoryManagement-MemoryLayout-SizeOfPointer-run::@db3ed6374c37a7e1271a",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-SizeOfPointer-run-Debug-52460fb7f809e05fe307.json",
+					"name" : "MemoryManagement-MemoryLayout-SizeOfPointer-run",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "MemoryManagement-MemoryLayout-StackMemory-run::@0be7813dee59e670ba87",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-StackMemory-run-Debug-21851c9582674c8be0d6.json",
+					"name" : "MemoryManagement-MemoryLayout-StackMemory-run",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "MemoryManagement-MemoryLayout-StaticMemory-run::@a18c8983d24a87e2141c",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-StaticMemory-run-Debug-b39b6d3f78966d7360eb.json",
+					"name" : "MemoryManagement-MemoryLayout-StaticMemory-run",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "MemoryManagement-MemoryLayout-Swap-run::@eb1dcb7f53c33a7195dc",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-Swap-run-Debug-64f219cc2baea927756f.json",
+					"name" : "MemoryManagement-MemoryLayout-Swap-run",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "MemoryManagement-MemoryLayout-Swap-test::@eb1dcb7f53c33a7195dc",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-Swap-test-Debug-73daef3c3f65fd5848b0.json",
+					"name" : "MemoryManagement-MemoryLayout-Swap-test",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "MemoryManagement-MemoryLayout-Swap-test-src-part::@eb1dcb7f53c33a7195dc",
+					"jsonFile" : "target-MemoryManagement-MemoryLayout-Swap-test-src-part-Debug-9a39a4fb49686d573051.json",
+					"name" : "MemoryManagement-MemoryLayout-Swap-test-src-part",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CCast-run::@bafdee64a9489f5809c0",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CCast-run-Debug-19f122ee6b3e002f079e.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CCast-run",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-run::@47c404494b4357843e4c",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringConcat-run-Debug-a85827138cb0e0978578.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-run",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test::@47c404494b4357843e4c",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-Debug-72ae5ae32f560a0c7f56.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part::@47c404494b4357843e4c",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part-Debug-fca164a572a765ffa0ac.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringConcat-test-src-part",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-run::@5b4702503c60557d904a",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringSplit-run-Debug-d5705708cd09f4fc52f1.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-run",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-test::@5b4702503c60557d904a",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-Debug-6a30279b617e1b29e035.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-test",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part::@5b4702503c60557d904a",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part-Debug-3c099d71f735c965bf16.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStringSplit-test-src-part",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStrings-run::@1219e74ac01f4e72b4a2",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStrings-run-Debug-7b6aa4c695b8877f8ee2.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStrings-run",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CStyle-run::@e2e18b9ddd332233ad98",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CStyle-run-Debug-2c7033b5aed9a5105c25.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CStyle-run",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-CppCast-run::@24b83c7a1e66320d6596",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-CppCast-run-Debug-3850aff6d8870a08467f.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-CppCast-run",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-Survey-run::@32f64309bf6b1519ec68",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-Survey-run-Debug-a906e1ba1f008e00d629.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-Survey-run",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run::@861fe2292f1801e36ff8",
+					"jsonFile" : "target-MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run-Debug-3c92bc1be09cd31a4f93.json",
+					"name" : "MemoryManagement-TypeCastsAndCStrings-TypeCastsQuestion-run",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "WarmUp-HelloWorld-AgeDoestNotMatter-run::@6405b30d3b2567f681a4",
+					"jsonFile" : "target-WarmUp-HelloWorld-AgeDoestNotMatter-run-Debug-cbfe1d39a60180d0b028.json",
+					"name" : "WarmUp-HelloWorld-AgeDoestNotMatter-run",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "WarmUp-HelloWorld-FirstWords-run::@115ed5b0283747f888ee",
+					"jsonFile" : "target-WarmUp-HelloWorld-FirstWords-run-Debug-ed9c89070173c26f73e6.json",
+					"name" : "WarmUp-HelloWorld-FirstWords-run",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "WarmUp-HelloWorld-IntroduceYourself-run::@5f979dd47a66a2272083",
+					"jsonFile" : "target-WarmUp-HelloWorld-IntroduceYourself-run-Debug-14b77cd4cccd3aeb113a.json",
+					"name" : "WarmUp-HelloWorld-IntroduceYourself-run",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "WarmUp-HelloWorld-TypesOfVariables-run::@a67a77d309583d7a4f75",
+					"jsonFile" : "target-WarmUp-HelloWorld-TypesOfVariables-run-Debug-5718f82a1d9f2c7e677e.json",
+					"name" : "WarmUp-HelloWorld-TypesOfVariables-run",
+					"projectIndex" : 41
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "WarmUp-HelloWorld-Welcome-run::@04b48f0a60144f1a1de6",
+					"jsonFile" : "target-WarmUp-HelloWorld-Welcome-run-Debug-f184332755e35ff77ccc.json",
+					"name" : "WarmUp-HelloWorld-Welcome-run",
+					"projectIndex" : 42
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "WarmUp-MovingOn-MovingUp-run::@75d765f6b5ff3479093d",
+					"jsonFile" : "target-WarmUp-MovingOn-MovingUp-run-Debug-d1aa7834d05fcd442428.json",
+					"name" : "WarmUp-MovingOn-MovingUp-run",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "WarmUp-MovingOn-MovingUp-test::@75d765f6b5ff3479093d",
+					"jsonFile" : "target-WarmUp-MovingOn-MovingUp-test-Debug-7a2ad9d661ca33104226.json",
+					"name" : "WarmUp-MovingOn-MovingUp-test",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "WarmUp-MovingOn-MovingUp-test-src-part::@75d765f6b5ff3479093d",
+					"jsonFile" : "target-WarmUp-MovingOn-MovingUp-test-src-part-Debug-9e20d6d77e1b7c2ac585.json",
+					"name" : "WarmUp-MovingOn-MovingUp-test-src-part",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "WarmUp-Quiz-Calculator-run::@7654f92d65a2524302b4",
+					"jsonFile" : "target-WarmUp-Quiz-Calculator-run-Debug-054900b581539783a00f.json",
+					"name" : "WarmUp-Quiz-Calculator-run",
+					"projectIndex" : 44
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "WarmUp-Quiz-Initialization-run::@988258b0c9ca68248658",
+					"jsonFile" : "target-WarmUp-Quiz-Initialization-run-Debug-68b16a45405a9ab61d45.json",
+					"name" : "WarmUp-Quiz-Initialization-run",
+					"projectIndex" : 45
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "WarmUp-Quiz-LetUsStart-run::@b4dd3353a485480eaf67",
+					"jsonFile" : "target-WarmUp-Quiz-LetUsStart-run-Debug-1a875a73e7d84c826aa3.json",
+					"name" : "WarmUp-Quiz-LetUsStart-run",
+					"projectIndex" : 46
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "WarmUp-Quiz-MaxInt-run::@699b1e128aecd25a3d2a",
+					"jsonFile" : "target-WarmUp-Quiz-MaxInt-run-Debug-26202640265a5c7dcdfe.json",
+					"name" : "WarmUp-Quiz-MaxInt-run",
+					"projectIndex" : 47
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "WarmUp-Quiz-MaxInt-test::@699b1e128aecd25a3d2a",
+					"jsonFile" : "target-WarmUp-Quiz-MaxInt-test-Debug-e7a6adb53c76a4427395.json",
+					"name" : "WarmUp-Quiz-MaxInt-test",
+					"projectIndex" : 47
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "WarmUp-Quiz-MaxInt-test-src-part::@699b1e128aecd25a3d2a",
+					"jsonFile" : "target-WarmUp-Quiz-MaxInt-test-src-part-Debug-306761d3c917310f5416.json",
+					"name" : "WarmUp-Quiz-MaxInt-test-src-part",
+					"projectIndex" : 47
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "WarmUp-Quiz-SumPositive-run::@db24fc1ae89486edc080",
+					"jsonFile" : "target-WarmUp-Quiz-SumPositive-run-Debug-712d02f0434fd75eb226.json",
+					"name" : "WarmUp-Quiz-SumPositive-run",
+					"projectIndex" : 48
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "WarmUp-Quiz-SumPositive-test::@db24fc1ae89486edc080",
+					"jsonFile" : "target-WarmUp-Quiz-SumPositive-test-Debug-789454deee5a0c651948.json",
+					"name" : "WarmUp-Quiz-SumPositive-test",
+					"projectIndex" : 48
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "WarmUp-Quiz-SumPositive-test-src-part::@db24fc1ae89486edc080",
+					"jsonFile" : "target-WarmUp-Quiz-SumPositive-test-src-part-Debug-f56c54651a834c5ad20b.json",
+					"name" : "WarmUp-Quiz-SumPositive-test-src-part",
+					"projectIndex" : 48
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@a09f50990482c9094d34",
+					"jsonFile" : "target-gmock-Debug-a7c95bc7fceb9acd1117.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@a09f50990482c9094d34",
+					"jsonFile" : "target-gmock_main-Debug-e0d60e5b8693a0b3814b.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@f61055787a6fde69ffa6",
+					"jsonFile" : "target-gtest-Debug-631f36f8f1d86b3e9dca.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@f61055787a6fde69ffa6",
+					"jsonFile" : "target-gtest_main-Debug-960b584c81e7f47a3d47.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug",
+		"source" : "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

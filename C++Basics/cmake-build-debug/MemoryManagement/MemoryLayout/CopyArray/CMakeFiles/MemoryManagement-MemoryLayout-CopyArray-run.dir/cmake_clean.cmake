@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-run.dir/src/task.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-run.dir/src/task.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-run.dir/src/task.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-CopyArray-run.dir/src/task.cpp.o.d"
   "MemoryManagement-MemoryLayout-CopyArray-run.exe"
-  "MemoryManagement-MemoryLayout-CopyArray-run.exe.manifest"
   "MemoryManagement-MemoryLayout-CopyArray-run.pdb"
   "libMemoryManagement-MemoryLayout-CopyArray-run.dll.a"
 )

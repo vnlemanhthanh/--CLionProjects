@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/MovingOn/task/src/point.cpp" "WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.obj" "gcc" "WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.obj.d"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/MovingOn/task/src/point.cpp" "WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.o" "gcc" "WarmUp/MovingOn/task/CMakeFiles/WarmUp-MovingOn-MovingUp-test-src-part.dir/src/point.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

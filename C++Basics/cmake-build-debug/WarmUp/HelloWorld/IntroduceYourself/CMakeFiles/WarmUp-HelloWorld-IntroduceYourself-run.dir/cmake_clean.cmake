@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-HelloWorld-IntroduceYourself-run.dir/src/main.cpp.obj"
-  "CMakeFiles/WarmUp-HelloWorld-IntroduceYourself-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/WarmUp-HelloWorld-IntroduceYourself-run.dir/src/main.cpp.o"
+  "CMakeFiles/WarmUp-HelloWorld-IntroduceYourself-run.dir/src/main.cpp.o.d"
   "WarmUp-HelloWorld-IntroduceYourself-run.exe"
-  "WarmUp-HelloWorld-IntroduceYourself-run.exe.manifest"
   "WarmUp-HelloWorld-IntroduceYourself-run.pdb"
   "libWarmUp-HelloWorld-IntroduceYourself-run.dll.a"
 )

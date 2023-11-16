@@ -1,2 +1,2 @@
-C:\PROGRA~1\mingw64\bin\ar.exe qc libMemoryManagement-LinkedLists-LinkedList-test-src-part.a "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/src/dllist.cpp.obj"
-C:\PROGRA~1\mingw64\bin\ranlib.exe libMemoryManagement-LinkedLists-LinkedList-test-src-part.a
+/usr/bin/ar.exe qc libMemoryManagement-LinkedLists-LinkedList-test-src-part.a "CMakeFiles/MemoryManagement-LinkedLists-LinkedList-test-src-part.dir/src/dllist.cpp.o"
+/usr/bin/ranlib.exe libMemoryManagement-LinkedLists-LinkedList-test-src-part.a

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-ConstAndReferences-SwapAgain-test.dir/test/test.cpp.obj"
-  "CMakeFiles/MemoryManagement-ConstAndReferences-SwapAgain-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-ConstAndReferences-SwapAgain-test.dir/test/test.cpp.o"
+  "CMakeFiles/MemoryManagement-ConstAndReferences-SwapAgain-test.dir/test/test.cpp.o.d"
   "MemoryManagement-ConstAndReferences-SwapAgain-test.exe"
-  "MemoryManagement-ConstAndReferences-SwapAgain-test.exe.manifest"
   "MemoryManagement-ConstAndReferences-SwapAgain-test.pdb"
   "libMemoryManagement-ConstAndReferences-SwapAgain-test.dll.a"
 )

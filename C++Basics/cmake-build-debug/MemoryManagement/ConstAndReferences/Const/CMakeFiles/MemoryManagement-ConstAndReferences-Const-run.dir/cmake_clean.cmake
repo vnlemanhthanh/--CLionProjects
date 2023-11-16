@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-ConstAndReferences-Const-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-ConstAndReferences-Const-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-ConstAndReferences-Const-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-ConstAndReferences-Const-run.dir/src/main.cpp.o.d"
   "MemoryManagement-ConstAndReferences-Const-run.exe"
-  "MemoryManagement-ConstAndReferences-Const-run.exe.manifest"
   "MemoryManagement-ConstAndReferences-Const-run.pdb"
   "libMemoryManagement-ConstAndReferences-Const-run.dll.a"
 )

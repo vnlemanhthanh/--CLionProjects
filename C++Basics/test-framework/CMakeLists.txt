@@ -6,8 +6,8 @@ include(ExternalProject)
 
 ExternalProject_Add(
         googletest
-        SOURCE_DIR "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src"
-        BINARY_DIR "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build"
+        SOURCE_DIR "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src"
+        BINARY_DIR "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build"
         GIT_REPOSITORY
             https://github.com/google/googletest.git
         GIT_TAG

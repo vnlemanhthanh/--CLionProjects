@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-StaticMemory-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-StaticMemory-run.exe"
-  "MemoryManagement-MemoryLayout-StaticMemory-run.exe.manifest"
   "MemoryManagement-MemoryLayout-StaticMemory-run.pdb"
   "libMemoryManagement-MemoryLayout-StaticMemory-run.dll.a"
 )

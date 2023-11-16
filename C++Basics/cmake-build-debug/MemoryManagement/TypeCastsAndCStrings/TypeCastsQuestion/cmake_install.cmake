@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion
+# Install script for directory: /cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cppbasics")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump.exe")
 endif()
 

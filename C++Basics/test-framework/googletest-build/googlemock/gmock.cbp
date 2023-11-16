@@ -5,454 +5,395 @@
 		<Option title="gmock"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\MemoryManagement\;CMake Files\MemoryManagement\ConstAndReferences\;CMake Files\MemoryManagement\ConstAndReferences\Const\;CMake Files\MemoryManagement\ConstAndReferences\ConstQuestion\;CMake Files\MemoryManagement\ConstAndReferences\PassingArguments\;CMake Files\MemoryManagement\ConstAndReferences\PassingArgumentsQuestion\;CMake Files\MemoryManagement\ConstAndReferences\References\;CMake Files\MemoryManagement\ConstAndReferences\SwapAgain\;CMake Files\MemoryManagement\LinkedList\;CMake Files\MemoryManagement\LinkedList\task\;CMake Files\MemoryManagement\MemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\AddressEscape\;CMake Files\MemoryManagement\MemoryLayout\AddressOf\;CMake Files\MemoryManagement\MemoryLayout\ArraysMemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\CopyArray\;CMake Files\MemoryManagement\MemoryLayout\CustomTypesMemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\DynamicMemory\;CMake Files\MemoryManagement\MemoryLayout\FunctionPointers\;CMake Files\MemoryManagement\MemoryLayout\Introduction\;CMake Files\MemoryManagement\MemoryLayout\MemoryErrors\;CMake Files\MemoryManagement\MemoryLayout\MemoryRegions\;CMake Files\MemoryManagement\MemoryLayout\NullPointer\;CMake Files\MemoryManagement\MemoryLayout\PointToSameValue\;CMake Files\MemoryManagement\MemoryLayout\PointerArithmetic\;CMake Files\MemoryManagement\MemoryLayout\Pointers\;CMake Files\MemoryManagement\MemoryLayout\SizeOf\;CMake Files\MemoryManagement\MemoryLayout\SizeOfPointer\;CMake Files\MemoryManagement\MemoryLayout\StackMemory\;CMake Files\MemoryManagement\MemoryLayout\StaticMemory\;CMake Files\MemoryManagement\MemoryLayout\Swap\;CMake Files\MemoryManagement\TypeCastsAndCStrings\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CCast\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringConcat\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringSplit\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStrings\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStyle\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CppCast\;CMake Files\MemoryManagement\TypeCastsAndCStrings\Survey\;CMake Files\MemoryManagement\TypeCastsAndCStrings\TypeCastsQuestion\;CMake Files\sfml\;CMake Files\sfml\sfml-src\;CMake Files\sfml\sfml-src\cmake\;CMake Files\sfml\sfml-src\cmake\Modules\;CMake Files\sfml\sfml-src\src\;CMake Files\sfml\sfml-src\src\SFML\;CMake Files\sfml\sfml-src\src\SFML\System\;CMake Files\sfml\sfml-src\src\SFML\Main\;CMake Files\sfml\sfml-src\src\SFML\Window\;CMake Files\sfml\sfml-src\src\SFML\Network\;CMake Files\sfml\sfml-src\src\SFML\Graphics\;CMake Files\sfml\sfml-src\src\SFML\Audio\;CMake Files\WarmUp\;CMake Files\WarmUp\HelloWorld\;CMake Files\WarmUp\HelloWorld\AgeDoestNotMatter\;CMake Files\WarmUp\HelloWorld\FirstWords\;CMake Files\WarmUp\HelloWorld\IntroduceYourself\;CMake Files\WarmUp\HelloWorld\TypesOfVariables\;CMake Files\WarmUp\HelloWorld\Welcome\;CMake Files\WarmUp\MovingOn\;CMake Files\WarmUp\MovingOn\task\;CMake Files\WarmUp\Quiz\;CMake Files\WarmUp\Quiz\Calculator\;CMake Files\WarmUp\Quiz\Initialization\;CMake Files\WarmUp\Quiz\LetUsStart\;CMake Files\WarmUp\Quiz\MaxInt\;CMake Files\WarmUp\Quiz\SumPositive\;CMake Files\cmake\;CMake Files\test-framework\;CMake Files\test-framework\googletest-src\;CMake Files\test-framework\googletest-src\googlemock\;CMake Files\test-framework\googletest-src\googlemock\cmake\;CMake Files\test-framework\googletest-src\googletest\;CMake Files\test-framework\googletest-src\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MemoryManagement\;CMake Files\MemoryManagement\ConstAndReferences\;CMake Files\MemoryManagement\ConstAndReferences\Const\;CMake Files\MemoryManagement\ConstAndReferences\ConstQuestion\;CMake Files\MemoryManagement\ConstAndReferences\PassingArguments\;CMake Files\MemoryManagement\ConstAndReferences\PassingArgumentsQuestion\;CMake Files\MemoryManagement\ConstAndReferences\References\;CMake Files\MemoryManagement\ConstAndReferences\SwapAgain\;CMake Files\MemoryManagement\LinkedList\;CMake Files\MemoryManagement\LinkedList\task\;CMake Files\MemoryManagement\MemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\AddressEscape\;CMake Files\MemoryManagement\MemoryLayout\AddressOf\;CMake Files\MemoryManagement\MemoryLayout\ArraysMemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\CopyArray\;CMake Files\MemoryManagement\MemoryLayout\CustomTypesMemoryLayout\;CMake Files\MemoryManagement\MemoryLayout\DynamicMemory\;CMake Files\MemoryManagement\MemoryLayout\FunctionPointers\;CMake Files\MemoryManagement\MemoryLayout\Introduction\;CMake Files\MemoryManagement\MemoryLayout\MemoryErrors\;CMake Files\MemoryManagement\MemoryLayout\MemoryRegions\;CMake Files\MemoryManagement\MemoryLayout\NullPointer\;CMake Files\MemoryManagement\MemoryLayout\PointToSameValue\;CMake Files\MemoryManagement\MemoryLayout\PointerArithmetic\;CMake Files\MemoryManagement\MemoryLayout\Pointers\;CMake Files\MemoryManagement\MemoryLayout\SizeOf\;CMake Files\MemoryManagement\MemoryLayout\SizeOfPointer\;CMake Files\MemoryManagement\MemoryLayout\StackMemory\;CMake Files\MemoryManagement\MemoryLayout\StaticMemory\;CMake Files\MemoryManagement\MemoryLayout\Swap\;CMake Files\MemoryManagement\TypeCastsAndCStrings\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CCast\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringConcat\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringSplit\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStrings\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CStyle\;CMake Files\MemoryManagement\TypeCastsAndCStrings\CppCast\;CMake Files\MemoryManagement\TypeCastsAndCStrings\Survey\;CMake Files\MemoryManagement\TypeCastsAndCStrings\TypeCastsQuestion\;CMake Files\WarmUp\;CMake Files\WarmUp\HelloWorld\;CMake Files\WarmUp\HelloWorld\AgeDoestNotMatter\;CMake Files\WarmUp\HelloWorld\FirstWords\;CMake Files\WarmUp\HelloWorld\IntroduceYourself\;CMake Files\WarmUp\HelloWorld\TypesOfVariables\;CMake Files\WarmUp\HelloWorld\Welcome\;CMake Files\WarmUp\MovingOn\;CMake Files\WarmUp\MovingOn\task\;CMake Files\WarmUp\Quiz\;CMake Files\WarmUp\Quiz\Calculator\;CMake Files\WarmUp\Quiz\Initialization\;CMake Files\WarmUp\Quiz\LetUsStart\;CMake Files\WarmUp\Quiz\MaxInt\;CMake Files\WarmUp\Quiz\SumPositive\;CMake Files\cmake\;CMake Files\test-framework\;CMake Files\test-framework\googletest-src\;CMake Files\test-framework\googletest-src\googlemock\;CMake Files\test-framework\googletest-src\googlemock\cmake\;CMake Files\test-framework\googletest-src\googletest\;CMake Files\test-framework\googletest-src\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
+				<Option output="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/include"/>
+					<Add directory="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/src/gmock-all.cc">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/src/gmock_main.cc">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/src/gtest-all.cc">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/src/gtest_main.cc">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/Const/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/Const/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\Const\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/ConstQuestion/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/ConstQuestion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\ConstQuestion\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/PassingArguments/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/PassingArguments/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\PassingArguments\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/PassingArgumentsQuestion/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/PassingArgumentsQuestion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\PassingArgumentsQuestion\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/References/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/References/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\References\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/SwapAgain/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/ConstAndReferences/SwapAgain/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\ConstAndReferences\SwapAgain\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/LinkedList/task/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/LinkedList/task/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\LinkedList\task\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/AddressEscape/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/AddressEscape/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\AddressEscape\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/AddressOf/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/AddressOf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\AddressOf\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/ArraysMemoryLayout/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\ArraysMemoryLayout\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/CopyArray/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/CopyArray/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\CopyArray\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/CustomTypesMemoryLayout/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\CustomTypesMemoryLayout\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/DynamicMemory/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/DynamicMemory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\DynamicMemory\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/FunctionPointers/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/FunctionPointers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\FunctionPointers\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Introduction/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Introduction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\Introduction\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryErrors/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryErrors/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\MemoryErrors\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryRegions/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/MemoryRegions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\MemoryRegions\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/NullPointer/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/NullPointer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\NullPointer\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/PointToSameValue/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/PointToSameValue/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\PointToSameValue\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/PointerArithmetic/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/PointerArithmetic/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\PointerArithmetic\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Pointers/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Pointers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\Pointers\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/SizeOf/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/SizeOf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\SizeOf\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/SizeOfPointer/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/SizeOfPointer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\SizeOfPointer\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/StackMemory/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/StackMemory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\StackMemory\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/StaticMemory/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/StaticMemory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\StaticMemory\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Swap/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/MemoryLayout/Swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\MemoryLayout\Swap\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CCast/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CCast/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CCast\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStringConcat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringConcat\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStringSplit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CStringSplit\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStrings/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CStrings\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CStyle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CStyle\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CppCast/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\CppCast\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/Survey/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/Survey/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\Survey\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/TypeCastsQuestion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MemoryManagement\TypeCastsAndCStrings\TypeCastsQuestion\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/Config.cmake">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/Macros.cmake">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/SFMLConfig.cmake.in">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/SFMLConfigDependencies.cmake.in">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/Modules/FindFLAC.cmake">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\Modules\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/Modules/FindFreetype.cmake">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\Modules\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/cmake/Modules/FindVorbis.cmake">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\cmake\Modules\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/System/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\System\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/Main/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\Main\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/Window/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\Window\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/Network/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\Network\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/Graphics/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\Graphics\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/sfml/sfml-src/src/SFML/Audio/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\sfml\sfml-src\src\SFML\Audio\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/AgeDoestNotMatter/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/AgeDoestNotMatter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\HelloWorld\AgeDoestNotMatter\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/FirstWords/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/FirstWords/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\HelloWorld\FirstWords\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/IntroduceYourself/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/IntroduceYourself/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\HelloWorld\IntroduceYourself\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/TypesOfVariables/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/TypesOfVariables/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\HelloWorld\TypesOfVariables\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/Welcome/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/HelloWorld/Welcome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\HelloWorld\Welcome\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/MovingOn/task/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/MovingOn/task/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\MovingOn\task\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/Calculator/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/Calculator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\Quiz\Calculator\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/Initialization/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/Initialization/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\Quiz\Initialization\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/LetUsStart/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/LetUsStart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\Quiz\LetUsStart\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/MaxInt/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/MaxInt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\Quiz\MaxInt\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/SumPositive/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/WarmUp/Quiz/SumPositive/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\WarmUp\Quiz\SumPositive\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/googletest-download.cmake">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/googletest-download.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/googletest.cmake">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/googletest.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/sfml-download.cmake">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/sfml.cmake">
-			<Option virtualFolder="CMake Files\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake/utils.cmake">
-			<Option virtualFolder="CMake Files\cmake\"/>
-		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googlemock\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/Config.cmake.in">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/gtest.pc.in">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/test-framework/googletest-src/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\cmake\"/>
 		</Unit>
 	</Project>

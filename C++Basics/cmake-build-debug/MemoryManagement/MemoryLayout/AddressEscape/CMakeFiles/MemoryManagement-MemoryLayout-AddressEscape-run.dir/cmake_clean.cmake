@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-AddressEscape-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-AddressEscape-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-AddressEscape-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-AddressEscape-run.dir/src/main.cpp.o.d"
   "MemoryManagement-MemoryLayout-AddressEscape-run.exe"
-  "MemoryManagement-MemoryLayout-AddressEscape-run.exe.manifest"
   "MemoryManagement-MemoryLayout-AddressEscape-run.pdb"
   "libMemoryManagement-MemoryLayout-AddressEscape-run.dll.a"
 )

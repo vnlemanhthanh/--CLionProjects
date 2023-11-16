@@ -1,2 +1,2 @@
-C:\PROGRA~1\mingw64\bin\ar.exe qc C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\lib\libgmock.a "CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
-C:\PROGRA~1\mingw64\bin\ranlib.exe C:\Users\vnlemanhthanh\CLionProjects\C++Basics\cmake-build-debug\lib\libgmock.a
+/usr/bin/ar.exe qc /cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a "CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+/usr/bin/ranlib.exe /cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/cmake-build-debug/lib/libgmock.a

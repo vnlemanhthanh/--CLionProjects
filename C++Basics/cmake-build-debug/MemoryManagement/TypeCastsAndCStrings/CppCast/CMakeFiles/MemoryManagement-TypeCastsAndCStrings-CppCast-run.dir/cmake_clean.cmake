@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/src/main.cpp.obj"
-  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/src/main.cpp.o"
+  "CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CppCast-run.dir/src/main.cpp.o.d"
   "MemoryManagement-TypeCastsAndCStrings-CppCast-run.exe"
-  "MemoryManagement-TypeCastsAndCStrings-CppCast-run.exe.manifest"
   "MemoryManagement-TypeCastsAndCStrings-CppCast-run.pdb"
   "libMemoryManagement-TypeCastsAndCStrings-CppCast-run.dll.a"
 )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CCast/src/main.cpp" "MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/src/main.cpp.obj" "gcc" "MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/src/main.cpp.obj.d"
+  "/cygdrive/c/Users/vnlemanhthanh/CLionProjects/C++Basics/MemoryManagement/TypeCastsAndCStrings/CCast/src/main.cpp" "MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/src/main.cpp.o" "gcc" "MemoryManagement/TypeCastsAndCStrings/CCast/CMakeFiles/MemoryManagement-TypeCastsAndCStrings-CCast-run.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

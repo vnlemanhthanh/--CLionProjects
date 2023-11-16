@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/test/test.cpp.obj"
-  "CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/test/test.cpp.obj.d"
+  "CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/test/test.cpp.o"
+  "CMakeFiles/MemoryManagement-MemoryLayout-FunctionPointers-test.dir/test/test.cpp.o.d"
   "MemoryManagement-MemoryLayout-FunctionPointers-test.exe"
-  "MemoryManagement-MemoryLayout-FunctionPointers-test.exe.manifest"
   "MemoryManagement-MemoryLayout-FunctionPointers-test.pdb"
   "libMemoryManagement-MemoryLayout-FunctionPointers-test.dll.a"
 )

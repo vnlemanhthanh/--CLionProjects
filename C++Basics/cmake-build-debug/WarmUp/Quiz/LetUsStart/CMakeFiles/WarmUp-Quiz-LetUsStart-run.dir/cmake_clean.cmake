@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/src/main.cpp.obj"
-  "CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/src/main.cpp.obj.d"
+  "CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/src/main.cpp.o"
+  "CMakeFiles/WarmUp-Quiz-LetUsStart-run.dir/src/main.cpp.o.d"
   "WarmUp-Quiz-LetUsStart-run.exe"
-  "WarmUp-Quiz-LetUsStart-run.exe.manifest"
   "WarmUp-Quiz-LetUsStart-run.pdb"
   "libWarmUp-Quiz-LetUsStart-run.dll.a"
 )
